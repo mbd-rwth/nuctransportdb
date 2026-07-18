@@ -1,0 +1,950 @@
+C:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 2e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: f4d5803e-e0a6-5ec4-885d-860e8d3aaade
+- source: keesmann2005
+  type: scalar
+  value: 5e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 7131995a-c974-5891-b26a-9a2c6f56e76e
+Cl:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 24508da6-908d-5118-b060-d6780bf0b798
+- source: keesmann2005
+  type: scalar
+  value: 5e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: b0a2b14d-c9e6-5865-ba2f-da631905f1f1
+Ni:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 2e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: e72a700d-edc6-5db7-bd38-352d988ecb17
+- source: keesmann2005
+  type: scalar
+  value: 1e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 55a1e2d5-3c76-538a-a2b5-6cc405789b58
+Se:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 403e8e09-b8b1-571c-8c8d-c24f0d2d7db6
+- source: keesmann2005
+  type: scalar
+  value: 3e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: e78b913c-7ec6-5b14-a80d-d09583f46995
+Zr:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 4e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 400fd500-d92d-5b6e-bf88-294f40aa685c
+- source: keesmann2005
+  type: scalar
+  value: 1e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 79adb049-741c-5a15-bdee-77a856caebeb
+Mo:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 91bb1555-d299-525c-bbee-d5c183f85a9b
+- source: keesmann2005
+  type: scalar
+  value: 1e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 10e617fb-a6db-594b-8ba5-cca96ffed64a
+Tc:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 8aa5f52f-310e-5aaf-ad72-8b73083b6a54
+- source: keesmann2005
+  type: scalar
+  value: 7e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: b4803fde-19fe-52b8-8b25-926530709953
+Sn:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 4e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 17d794af-76d6-5a55-88cb-7aac61648deb
+- source: keesmann2005
+  type: scalar
+  value: 2e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 5567c182-e6e6-5537-93c5-84fae1a3ad64
+I:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 2e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 8ea3ca35-4613-56f1-b797-d883e7c937bc
+- source: keesmann2005
+  type: scalar
+  value: 5e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 0252b747-8f04-55d8-b79e-a3d4c35d249a
+Cs:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 7e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 99f53a51-0f66-5bd9-ad32-0481956d5f37
+- source: keesmann2005
+  type: scalar
+  value: 1e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 1b0685e4-c006-5401-b39c-9c6979dda546
+Ra:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 4e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 2493318c-58d1-5f4f-b9ce-557423db1654
+- source: keesmann2005
+  type: scalar
+  value: 9e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 24798a2a-962b-5dc3-a8c6-fb054afe37da
+Th:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 2e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: c835e716-a476-50f9-897b-9d2c7eb62989
+- source: keesmann2005
+  type: scalar
+  value: 3e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 77bf23f4-467a-5634-b793-c4191375e7df
+Pa:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 6e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 4bd941de-e253-59a9-8d29-d41c69329da3
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: fd3b0e2b-71a1-5c04-a4e6-37c33a9d810a
+U:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 2e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: b3b1ca5f-e3d6-50b5-9fb3-3f26fd2bc4ee
+- source: keesmann2005
+  type: scalar
+  value: 2e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 3b215c7e-a472-595a-883c-2b3648b4525f
+Np:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: e7ec288d-78d0-5790-9218-d58981737ad9
+- source: keesmann2005
+  type: scalar
+  value: 3e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: c60773c1-2f9b-547e-ac16-efe596def17c
+Pu:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 8c0526fb-c9b6-5b2c-8bf7-4e9105b13415
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 5e6528d3-1826-5d58-94d3-34611b764762
+Am:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: c4ace274-1b93-5d78-918c-857ebda33f05
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 8c62b9d9-c6ef-5134-8ca3-703c6ac74636
+Cm:
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 1e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for Tertiary and Quaternary aquifers sediments 
+    (specifically sand and gravel).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate]
+    ID: 0b4853e3-565e-5e21-a71e-8f5ac2e863f2
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: de3265fd-15eb-5cde-9821-d52f3e9b4328
+Rb:
+- source: keesmann2005
+  type: scalar
+  value: 1e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 661f5588-3784-5985-8a34-4102445fbbb1
+Nb:
+- source: keesmann2005
+  type: scalar
+  value: 1e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: c41a8b0e-8632-5fd5-b45d-0417d588b72d
+Pd:
+- source: keesmann2005
+  type: scalar
+  value: 1e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 5f48a1d6-09da-590d-a2b6-a6bed408cf1c
+Eu:
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 2659282b-1073-5c0b-948a-e6cc0fd544ed
+Sm:
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: e90616dc-3dc0-57ba-80da-d504ee8255f7
+Pb:
+- source: keesmann2005
+  type: scalar
+  value: 4e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 80ca156e-8979-5d75-bc81-91763f74d625
+Po:
+- source: keesmann2005
+  type: scalar
+  value: 1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 238ef28c-c0ba-5b3c-884d-b8902bac73b6
+Sr:
+- source: keesmann2005
+  type: scalar
+  value: 5e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generalized value for the entire salt overburden (including sand,
+    gravel, silt and clay sediments).
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Sandstone, Conglomerate, Mudstone]
+    ID: 3031816c-56e7-564d-924c-ec125fe37adf

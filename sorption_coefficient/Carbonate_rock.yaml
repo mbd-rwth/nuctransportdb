@@ -1,0 +1,1071 @@
+H:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The chemical form of hydrogen in Table 8.2 is HTO.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 5b6204b8-386c-5230-bc27-939487d01922
+Be:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: f299f16d-c393-51bb-bb4c-0938b98cba2e
+C:
+- source: bradbury2010
+  type: scalar
+  value: 1.6e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. It refers to inorganic carbon in Table 8.2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 38c4e091-ef87-5eff-a11e-092190cb94c6
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. It refers to organic carbon in Table 8.2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 95ca8f75-8336-5feb-92a4-47a873227dce
+Cl:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: b067d79f-b9d2-53ca-a1c4-6e4f480fcf7d
+K:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 1b515a22-1374-520f-800f-b10fb81b7fdc
+Ca:
+- source: bradbury2010
+  type: scalar
+  value: 5.0e-5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 57e7ad6c-092e-5802-8f3e-fd93b1e55b5a
+Co:
+- source: bradbury2010
+  type: scalar
+  value: 2.0e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 1c49a8a1-14a2-5746-a4f2-057985032045
+Ni:
+- source: bradbury2010
+  type: scalar
+  value: 5.0e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: d89508c4-23bd-562c-919e-bfaf45dd173a
+Se:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is -2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 0f16ed6f-071b-55fb-b2bd-518682262ea5
+- source: bradbury2010
+  type: scalar
+  value: 4.0e-5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 00ded457-62ad-536d-91ec-ff59a2ab27dc
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: f2247d6b-d620-532e-9605-1088b47af180
+Sr:
+- source: bradbury2010
+  type: scalar
+  value: 5.0e-5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 66333641-615a-51e4-a892-5eb13fb88441
+Zr:
+- source: bradbury2010
+  type: scalar
+  value: 8.5e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: be4ae58b-41c3-567e-92a2-863dc859a36e
+Hf:
+- source: bradbury2010
+  type: scalar
+  value: 8.5e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: dbb21a44-9beb-572a-8fe4-17e97bd4ad20
+Nb:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 5e713d36-ba17-5e7a-b236-8778decfec44
+Mo:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 64cff072-f160-5f6f-a20c-03d41b39127a
+Tc:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 69e1f61e-6f06-54c1-a861-4923430dfb30
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +7.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: fb6a467c-1624-5bd6-8b94-454abd2d3530
+Ru:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 97ea4978-331e-5c85-b149-56449d52444b
+Pd:
+- source: bradbury2010
+  type: scalar
+  value: 4.2e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 7b7e02e2-92ce-56fe-8a8b-ee7f092676a4
+Ag:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: d9338fc0-3b92-52f3-a899-3b707fe95954
+Cd:
+- source: bradbury2010
+  type: scalar
+  value: 2.0e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 9fb77f06-bbeb-569a-916a-97690c97736c
+Sn:
+- source: bradbury2010
+  type: scalar
+  value: 3.8e-4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: c07aa7f1-3d54-5527-82b3-fb15b8130d69
+Sb:
+- source: bradbury2010
+  type: scalar
+  value: 2.6e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 9041a4df-979f-5f4b-9bca-e319bcc6ee84
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 82e9fc65-d276-537e-a4e1-fa8876d3a3b9
+I:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 370873ab-a70d-529d-b0a0-1d1773dbad37
+Cs:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 0c437a01-49df-5aaa-8c8b-c7fa9ec092d2
+Eu:
+- source: bradbury2010
+  type: scalar
+  value: 3.6e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 6a9168de-4a17-5291-91c0-4765aa12a2a0
+Ln:
+- source: bradbury2010
+  type: scalar
+  value: 3.6e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 169a76db-4993-5450-b49b-aff3f7ed1586
+Pb:
+- source: bradbury2010
+  type: scalar
+  value: 2.0e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 9bb5d609-b8ff-59d9-9f97-ac62a0cbcdc3
+Po:
+- source: bradbury2010
+  type: scalar
+  value: 4.0e-5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: b73e7975-8fb8-5a54-9e73-330b6e503241
+Ra:
+- source: bradbury2010
+  type: scalar
+  value: 5.0e-5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 83ea90ea-94e7-516d-87c3-4a5e3a3a12f1
+Th:
+- source: bradbury2010
+  type: scalar
+  value: 4.5e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: fcdc9d34-bf48-50f1-a340-02176210f888
+Pa:
+- source: bradbury2010
+  type: scalar
+  value: 4.6e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 80d00866-2b2f-5f2f-877b-73a8bcd70aa9
+U:
+- source: bradbury2010
+  type: scalar
+  value: 9.5e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 3cd7c0ac-742e-5f55-985d-81910207ed34
+- source: bradbury2010
+  type: scalar
+  value: 1.2e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 1d8ca280-1d25-5cbf-b203-d07181abb5e8
+Np:
+- source: bradbury2010
+  type: scalar
+  value: 5.5e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: a0cadf94-adbc-5fec-8c1d-82732dfae945
+- source: bradbury2010
+  type: scalar
+  value: 2.0e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 626742bb-2e1d-558c-bcb3-872225c507ed
+Pu:
+- source: bradbury2010
+  type: scalar
+  value: 2.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 50c717ef-2ce7-5d90-8a3e-69e662444a21
+- source: bradbury2010
+  type: scalar
+  value: 5.5e-2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: e264087e-6f3f-5100-8d9c-ef5baa0551d6
+- source: bradbury2010
+  type: scalar
+  value: 1.0e-3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: f666765f-8afa-5504-9f1e-7ddba1148fb6
+Am:
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: de4f8497-d154-5ea2-b8f0-14e997e6b540
+Ac:
+- source: bradbury2010
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: 4c59c91d-ddce-58f4-a98c-e10a77670574
+Cm:
+- source: bradbury2010
+  type: scalar
+  value: 8.7e-1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for calcareous rocks that do not contain 
+    any significant quantities of phyllosilicates (clay minerals) and that only 
+    uptake data on calcite are relevant. The value applies to calcareous systems
+    for 7.5 < pH < 9. The oxidation state in Table 8.2 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone, Dolostone]
+    ID: d8f0c985-18d6-596f-8e97-58cfbc8bcf52

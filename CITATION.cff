@@ -1,0 +1,17 @@
+# YAML 1.2
+---
+cff-version: "1.2.0"
+title: "nuclide_transport_data"
+authors:
+  - family-names: Chen
+    given-names: Qian
+    orcid: "https://orcid.org/0000-0001-7103-9330"
+date-released: 2026-07-18
+version: "0.1.0"
+repository-code: "https://github.com/CQ-QianChen/nuclide_transport_data"
+keywords:
+  - "nuclear waste transport"
+  - " sorption data"
+  - " emitted energy"
+  - " chemical species"
+message: "If you use this software, please cite it using these metadata."

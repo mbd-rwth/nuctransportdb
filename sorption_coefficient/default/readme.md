@@ -1,0 +1,1 @@
+The default sorption data were combined from existing datasets using a merging method adapted from the [Smart Data Hub](https://github.com/mbd-rwth/smart_data_hub.git). The code used to generate this default data can be found in [`generate_initial_default`](../../src/generate_initial_default.py)

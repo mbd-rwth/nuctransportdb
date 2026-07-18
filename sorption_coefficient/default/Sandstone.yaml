@@ -1,0 +1,434 @@
+Am:
+- type: scalar
+  source: default
+  value: 0.47
+  value_min: 0.000267
+  value_max: 5.74
+  value_std: 0.77
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.14, scale=0.24, loc=0.000267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    c4ace274-1b93-5d78-918c-857ebda33f05,8c62b9d9-c6ef-5134-8ca3-703c6ac74636.'
+  tag:
+    ID: 2b54683b-fc98-5df6-9ff7-ef112e0ab855
+C:
+- type: scalar
+  source: default
+  value: 0.00222
+  value_min: 5.34e-07
+  value_max: 0.0287
+  value_std: 0.0039
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.19, scale=0.0011, loc=5.34e-07).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    f4d5803e-e0a6-5ec4-885d-860e8d3aaade,7131995a-c974-5891-b26a-9a2c6f56e76e.'
+  tag:
+    ID: aeb667ce-cf89-5857-a1a9-f5db78153780
+Cl:
+- type: scalar
+  source: default
+  value: 0.000256
+  value_min: 2.67e-07
+  value_max: 0.00287
+  value_std: 0.000379
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.08, scale=0.000143, loc=2.67e-07).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    24508da6-908d-5118-b060-d6780bf0b798,b0a2b14d-c9e6-5865-ba2f-da631905f1f1.'
+  tag:
+    ID: 3dd1ae8f-2323-57fc-83d8-dfedf5062948
+Cm:
+- type: scalar
+  source: default
+  value: 0.47
+  value_min: 0.000267
+  value_max: 5.74
+  value_std: 0.77
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.14, scale=0.24, loc=0.000267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    0b4853e3-565e-5e21-a71e-8f5ac2e863f2,de3265fd-15eb-5cde-9821-d52f3e9b4328.'
+  tag:
+    ID: eed8eb67-7416-544d-b235-6b0c4c2d2825
+Cs:
+- type: scalar
+  source: default
+  value: 0.0303
+  value_min: 2.67e-06
+  value_max: 0.4
+  value_std: 0.055
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.21, scale=0.0146, loc=2.67e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    99f53a51-0f66-5bd9-ad32-0481956d5f37,1b0685e4-c006-5401-b39c-9c6979dda546.'
+  tag:
+    ID: e0f89da9-f2e8-5c9d-a72a-60e76c6efdbd
+Eu:
+- type: scalar
+  source: default
+  value: 0.85
+  value_min: 0.00267
+  value_max: 5.74
+  value_std: 0.94
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.9, scale=0.57, loc=0.00267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: 2659282b-1073-5c0b-948a-e6cc0fd544ed.'
+  tag:
+    ID: 41edb590-ead1-5de7-98f2-73ed244e4c73
+I:
+- type: scalar
+  source: default
+  value: 0.00107
+  value_min: 1.34e-06
+  value_max: 0.0115
+  value_std: 0.00151
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.05, scale=0.000617, loc=1.34e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    8ea3ca35-4613-56f1-b797-d883e7c937bc,0252b747-8f04-55d8-b79e-a3d4c35d249a.'
+  tag:
+    ID: f02e45be-c8d8-526c-9916-053eca344c8f
+Mo:
+- type: scalar
+  source: default
+  value: 0.000853
+  value_min: 2.67e-06
+  value_max: 0.00574
+  value_std: 0.000938
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.000571, loc=2.67e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    91bb1555-d299-525c-bbee-d5c183f85a9b,10e617fb-a6db-594b-8ba5-cca96ffed64a.'
+  tag:
+    ID: feebdd1b-18cc-5545-b6c4-a692e4e39ca7
+Nb:
+- type: scalar
+  source: default
+  value: 0.0853
+  value_min: 0.000267
+  value_max: 0.57
+  value_std: 0.0938
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.0571, loc=0.000267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: c41a8b0e-8632-5fd5-b45d-0417d588b72d.'
+  tag:
+    ID: 0a208be0-94a9-5bd8-a3b5-ff4014686819
+Ni:
+- type: scalar
+  source: default
+  value: 0.0128
+  value_min: 2.67e-05
+  value_max: 0.11
+  value_std: 0.0154
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.95, scale=0.00815, loc=2.67e-05).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    e72a700d-edc6-5db7-bd38-352d988ecb17,55a1e2d5-3c76-538a-a2b5-6cc405789b58.'
+  tag:
+    ID: 83d9b0a5-d754-514c-8b3a-2814acfb99df
+Np:
+- type: scalar
+  source: default
+  value: 0.0171
+  value_min: 2.67e-05
+  value_max: 0.17
+  value_std: 0.0227
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.01, scale=0.0103, loc=2.67e-05).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    e7ec288d-78d0-5790-9218-d58981737ad9,c60773c1-2f9b-547e-ac16-efe596def17c.'
+  tag:
+    ID: 10630557-9693-555f-9974-b1b01bd659fa
+Pa:
+- type: scalar
+  source: default
+  value: 0.68
+  value_min: 0.0016
+  value_max: 5.74
+  value_std: 0.79
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.93, scale=0.44, loc=0.0016).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    4bd941de-e253-59a9-8d29-d41c69329da3,fd3b0e2b-71a1-5c04-a4e6-37c33a9d810a.'
+  tag:
+    ID: 571bea50-83e2-5db2-9a30-06eb89637003
+Pb:
+- type: scalar
+  source: default
+  value: 0.0341
+  value_min: 0.000107
+  value_max: 0.23
+  value_std: 0.0375
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.0228, loc=0.000107).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: 80ca156e-8979-5d75-bc81-91763f74d625.'
+  tag:
+    ID: 33e0c82b-4224-5266-b0c9-93b92f68cbb2
+Pd:
+- type: scalar
+  source: default
+  value: 0.00853
+  value_min: 2.67e-05
+  value_max: 0.0574
+  value_std: 0.00938
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.00571, loc=2.67e-05).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: 5f48a1d6-09da-590d-a2b6-a6bed408cf1c.'
+  tag:
+    ID: 24d4dbf0-1c51-5611-b2f2-67b48e0a9510
+Po:
+- type: scalar
+  source: default
+  value: 0.85
+  value_min: 0.00267
+  value_max: 5.74
+  value_std: 0.94
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.9, scale=0.57, loc=0.00267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: 238ef28c-c0ba-5b3c-884d-b8902bac73b6.'
+  tag:
+    ID: 4b39ca6c-de0a-5532-9ffa-b34cf2adb0e6
+Pu:
+- type: scalar
+  source: default
+  value: 0.47
+  value_min: 0.000267
+  value_max: 5.74
+  value_std: 0.77
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.14, scale=0.24, loc=0.000267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    8c0526fb-c9b6-5b2c-8bf7-4e9105b13415,5e6528d3-1826-5d58-94d3-34611b764762.'
+  tag:
+    ID: 40db5b64-d0cb-58f3-b112-d0717addec46
+Ra:
+- type: scalar
+  source: default
+  value: 0.0174
+  value_min: 2.4e-06
+  value_max: 0.23
+  value_std: 0.0314
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.2, scale=0.00843, loc=2.4e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    2493318c-58d1-5f4f-b9ce-557423db1654,24798a2a-962b-5dc3-a8c6-fb054afe37da.'
+  tag:
+    ID: f8eb25d0-c65c-52c3-962f-8893364f0c1f
+Rb:
+- type: scalar
+  source: default
+  value: 0.000853
+  value_min: 2.67e-06
+  value_max: 0.00574
+  value_std: 0.000938
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.000571, loc=2.67e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: 661f5588-3784-5985-8a34-4102445fbbb1.'
+  tag:
+    ID: dbd9f1b6-97c9-5845-8828-f3c7b4419094
+Se:
+- type: scalar
+  source: default
+  value: 0.000555
+  value_min: 8.01e-07
+  value_max: 0.00574
+  value_std: 0.000754
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.02, scale=0.000328, loc=8.01e-07).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    403e8e09-b8b1-571c-8c8d-c24f0d2d7db6,e78b913c-7ec6-5b14-a80d-d09583f46995.'
+  tag:
+    ID: bc428d9b-af30-523c-aa5c-d6c4451efe1f
+Sm:
+- type: scalar
+  source: default
+  value: 0.85
+  value_min: 0.00267
+  value_max: 5.74
+  value_std: 0.94
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.9, scale=0.57, loc=0.00267).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: e90616dc-3dc0-57ba-80da-d504ee8255f7.'
+  tag:
+    ID: a3e24680-ea2f-5724-a006-8de41f8d6645
+Sn:
+- type: scalar
+  source: default
+  value: 0.1
+  value_min: 0.000107
+  value_max: 1.15
+  value_std: 0.15
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.09, scale=0.0554, loc=0.000107).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    17d794af-76d6-5a55-88cb-7aac61648deb,5567c182-e6e6-5537-93c5-84fae1a3ad64.'
+  tag:
+    ID: 1b1ed962-5601-57b7-9ed5-b1192d31eee1
+Sr:
+- type: scalar
+  source: default
+  value: 0.000427
+  value_min: 1.34e-06
+  value_max: 0.00287
+  value_std: 0.000469
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.000286, loc=1.34e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 1 dataset with id: 3031816c-56e7-564d-924c-ec125fe37adf.'
+  tag:
+    ID: aad25ea1-5cef-5de6-afc0-4a0ef5447c3e
+Tc:
+- type: scalar
+  source: default
+  value: 0.00341
+  value_min: 2.67e-06
+  value_max: 0.0402
+  value_std: 0.00534
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=1.11, scale=0.00183, loc=2.67e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    8aa5f52f-310e-5aaf-ad72-8b73083b6a54,b4803fde-19fe-52b8-8b25-926530709953.'
+  tag:
+    ID: b3cf2cb2-7431-5762-8df3-e8f9ddc6c471
+Th:
+- type: scalar
+  source: default
+  value: 0.21
+  value_min: 0.000534
+  value_max: 1.72
+  value_std: 0.24
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.92, scale=0.14, loc=0.000534).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    c835e716-a476-50f9-897b-9d2c7eb62989,77bf23f4-467a-5634-b793-c4191375e7df.'
+  tag:
+    ID: 5dbb28e2-b98e-5e23-9801-7550b07fe54a
+U:
+- type: scalar
+  source: default
+  value: 0.00171
+  value_min: 5.34e-06
+  value_max: 0.0115
+  value_std: 0.00188
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.89, scale=0.00115, loc=5.34e-06).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    b3b1ca5f-e3d6-50b5-9fb3-3f26fd2bc4ee,3b215c7e-a472-595a-883c-2b3648b4525f.'
+  tag:
+    ID: 1b953a6d-a7f8-53b8-b7f5-bb5b3742908d
+Zr:
+- type: scalar
+  source: default
+  value: 0.0597
+  value_min: 0.000107
+  value_max: 0.57
+  value_std: 0.0759
+  probability_distribution:
+    sample_size: 1000000
+    sampled_data: scipy.stats.lognorm(s=0.98, scale=0.0368, loc=0.000107).rvs(size=1000000,
+      random_state=21)
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  description: 'A lognormal distribution fitted from 2 combined datasets with ids:
+    400fd500-d92d-5b6e-bf88-294f40aa685c,79adb049-741c-5a15-bdee-77a856caebeb.'
+  tag:
+    ID: 64f1c641-a561-5026-a148-5699a9723231

@@ -1,0 +1,2195 @@
+C:
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: 0.0028
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 466ab425-2376-58e2-8b86-39664e0489a4
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: 0.0034
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 5a32dd49-d1a2-56d6-a154-36113cee3433
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: 0.0013
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 8fac918c-8e49-5a63-af7d-d97564019d00
+Cl:
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 56905438-60fb-5ba0-8794-e3f56cb3b4b2
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: aa1aff57-0b9c-53e1-9d10-2aa7dede674b
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 5b81ef7d-82f8-5de6-95fb-e38fbedbd57f
+Ni:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: d34a4cb9-22e1-5ef7-b665-bb766ae34e1c
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: c54cf30b-fe83-5227-a7b0-528e2a3b0f88
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 9a26520d-e134-5c55-85ec-30159ce6d09d
+Se:
+- source: stenhouse1995
+  type: scalar
+  value: 0.0001
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaHCO3 porewater composition. Kd values were calculated using a
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: dbd259b9-d741-5262-b58d-fd658d61f7cb
+- source: stenhouse1995
+  type: scalar
+  value: 0.005
+  value_min: 0.0001
+  value_max: 0.0083
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaCl porewater composition. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 5dccaf7b-3cec-572c-8470-26cfe8bfc7e9
+- source: stenhouse1995
+  type: scalar
+  value: 0.0001
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values are under 
+    the condition of NaHCO3 porewater composition. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 30c1f5c2-6066-5614-acca-b9bca75d35ff
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0001
+  value_max: 0.0029
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values are under 
+    the condition of NaCl porewater composition. Kd values were calculated using
+    a weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 8cfdbca4-acfc-5885-802d-a0405f300243
+- source: stenhouse1995
+  type: scalar
+  value: 0.0001
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaHCO3 porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: c5df6a6a-1904-5843-b27c-20ea25a39e41
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.0001
+  value_max: 0.015
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaCl porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: bff109da-a961-504d-8059-e7cef9f5f41b
+Sr:
+- source: stenhouse1995
+  type: scalar
+  value: 0.005
+  value_min: 0.001
+  value_max: 0.0068
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaHCO3 porewater composition. Kd values were calculated using a
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 16d4a90d-b7a0-5fb8-a899-f9d710ea35bc
+- source: stenhouse1995
+  type: scalar
+  value: 0.005
+  value_min: 0.001
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaCl porewater composition. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: dd02a3aa-0f3c-561a-9270-dfd32e034895
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: 0.0019
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: c299ac0b-4cd6-5b58-955d-4ca772ff1593
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.003
+  value_max: 0.013
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaHCO3 porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: a1046f86-0411-5478-b34a-e41784f32848
+- source: stenhouse1995
+  type: scalar
+  value: 0.005
+  value_min: 0.003
+  value_max: 0.0068
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaCl porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 128b78e2-d8db-5d54-9afd-353f07520904
+Zr:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded realistic and conservative 
+    values were reported as equal to Nb in the table. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: fcbbeab7-44fd-5deb-9c9b-64efb52a4c6d
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded realistic and 
+    conservative values were reported as equal to Nb in the table. Kd values 
+    were calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 2bb8855e-183c-599e-bfc8-142ae68a4861
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded realistic and conservative values were reported as equal to Nb in 
+    the table. Kd values were calculated using a weighted average approach based
+    on the sorption properties of individual rock-forming minerals. Value is 
+    defined as the best estimate of Kd, value_min refers to pessimistic estimate
+    used when there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: fb0e3ca8-ccae-5a0e-ba50-acba4935c0c4
+Nb:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded conservative value was 
+    reported as equal to Zr in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: b82e0bb4-5f6c-5d00-bf84-c524a3143e23
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded conservative 
+    value was reported as equal to Zr in the table. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 68fe89ac-fa86-5a38-95c1-4a86ba80dc74
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded conservative value was reported as equal to Zr in the table. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 53ad6e37-0584-5af0-95f8-057bf3d4fd79
+Tc:
+- source: stenhouse1995
+  type: scalar
+  value: 0.3
+  value_min: 0.0001
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaHCO3 porewater composition. Kd values were calculated using a
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: ef8ea4e3-3443-57cb-a6f7-7b461186d0c3
+- source: stenhouse1995
+  type: scalar
+  value: 0.3
+  value_min: 0.00033
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaCl porewater composition. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: eefe26b1-d87a-5980-8559-857d24b96460
+- source: stenhouse1995
+  type: scalar
+  value: 0.3
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Conservative rounded 
+    value is 0 in the table. Kd values were calculated using a weighted average 
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: f37cfaf3-4bd9-5612-b757-59c3f4d4423e
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaHCO3 porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 6dab1468-e08c-5c8d-8d92-a1c5db5350a9
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.00033
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaHCO3 porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: b67000a8-3de6-5258-a9cf-805ee8b37095
+Pd:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values were reported as 
+    equal to Ni in the table. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: ab0829b7-3e53-5d1e-985d-837203a3323a
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values were 
+    reported as equal to Ni in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 08d3ed18-3af0-55fc-bba8-4ac1a67edd00
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values were reported as equal to Ni in the table. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 21f088c2-c171-5de5-99f3-79444d3b9b57
+Sn:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values were reported as 
+    equal to Ni in the table. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 668420ec-b47b-5742-8af7-caaac50dfbcb
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values were 
+    reported as equal to Ni in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 27293c77-342a-58df-a5d8-ed07ce7d49f0
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values were reported as equal to Ni in the table. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: bc897501-fc79-5ffe-a529-5236e70ad98f
+I:
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.0
+  value_max: 0.013
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 4eb0ee5d-e87c-5341-8686-5dbe71659bad
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 018b86ee-7292-5496-bf59-c694112c968b
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.0
+  value_max: 0.014
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: d68e85bb-f89b-58b2-a74a-074ed2c9dc8d
+Cs:
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.046
+  value_max: 0.43
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaHCO3 porewater composition. This entry is valid for an 
+    equilibrium concentration Cs < 1e-8 M. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 00d86441-1497-5d65-9f07-363aeb4f5404
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.046
+  value_max: 0.42
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaCl porewater composition. This entry is valid for an 
+    equilibrium concentration Cs < 1e-8 M. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 999e70c4-5869-518b-9107-2aac2ce6526d
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.001
+  value_max: 0.0029
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. This entry is valid for 
+    an equilibrium concentration Cs < 1e-8 M. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 1afc01b8-bc01-5a4f-9bfb-eeda534c9512
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.1
+  value_max: 0.94
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaHCO3 porewater composition. This
+    entry is valid for an equilibrium concentration Cs < 1e-8 M. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 08678111-91a9-5079-bc72-8161dea7f1b9
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.1
+  value_max: 0.92
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaCl porewater composition. This 
+    entry is valid for an equilibrium concentration Cs < 1e-8 M. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 08db3f67-4902-5249-b54b-75358e0d6672
+- source: stenhouse1995
+  type: scalar
+  value: 0.05
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. This entry is valid for an 
+    equilibrium concentration Cs < 3.5e-7 M. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 25bc86d5-5d0b-57e6-9a13-75a1e4d212c1
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. This entry is valid for 
+    an equilibrium concentration Cs < 3.5e-7 M. Kd values were calculated using 
+    a weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: c1d3489d-27ed-5f2d-a627-87459ef3b4c5
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    This entry is valid for an equilibrium concentration Cs < 3.5e-7 M. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: bcecfa79-eff5-5824-b2b8-9033ec846fd5
+Pb:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values were reported as 
+    equal to Ni in the table. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: f029f974-6afe-569c-ade5-9531767561be
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values were 
+    reported as equal to Ni in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 3cd96efd-8adc-59f8-97ff-4ab2159af61e
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values were reported as equal to Ni in the table. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: cf12efee-2e3d-521d-80c0-e8054f7d844e
+Ra:
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: 0.25
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaHCO3 porewater composition. Kd values were calculated using a
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 9ee02a82-7567-5712-8de4-e715663f5f0d
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.005
+  value_max: 0.12
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values are under the 
+    condition of NaCl porewater composition. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 5fc44105-de5b-59b3-99e0-30ee82ab1e61
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.0039
+  value_max: 0.019
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values are under 
+    the condition of NaHCO3 porewater composition. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: ffba7bd2-3d9c-5bdb-a9ee-4b10e95574c9
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: 0.0022
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values are under 
+    the condition of NaCl porewater composition. Kd values were calculated using
+    a weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 663dcf75-c137-591c-a7a1-ba8a09e8a915
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: 0.54
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaHCO3 porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 0798eaa0-b4d2-5384-b644-b6e2b1c61435
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: 0.27
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values are under the condition of NaCl porewater composition. Kd 
+    values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 1ee0ad47-6234-558d-ac7c-68bea2734338
+Ac:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values were reported as 
+    equal to Am in the table. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 1daafce4-4632-5502-8236-3a7f953aca35
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values were 
+    reported as equal to Am in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 8c9efcd5-5f92-5532-ac9d-f25905d778b5
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values were reported as equal to Am in the table. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 4849a368-b05d-51f0-9ee9-c1952a470537
+Th:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: 1.3
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 494fd851-8641-5aaf-835b-002fe719efe0
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 9c5cf760-fef9-5782-b5e8-c4c3facbbcb5
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: 1.6
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: c25d2e6d-1a72-5153-a914-353794aea9ec
+Pa:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values were reported as 
+    equal to Zr in the table. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: f035b6cb-43f1-583d-9a8e-764b361e1449
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values were 
+    reported as equal to Zr in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: e414c555-43ef-59ce-9eb3-11132abb3414
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values were reported as equal to Zr in the table. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 9a420c34-d3c9-56fc-80d0-143736dbcb57
+U:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded realistic value was reported
+    as equal to Th in the table. Kd values were calculated using a weighted 
+    average approach based on the sorption properties of individual rock-forming
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: de94c012-2942-5f07-8972-f728c4828f79
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded realistic value 
+    was reported as equal to Th in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 9b7f00c3-6394-5b29-a914-cd8639182c50
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded realistic value was reported as equal to Th in the table. Kd values 
+    were calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: eb3f9ec2-b51c-5f55-8c7c-672fb6b14ae1
+Np:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.03
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded realistic value was reported
+    as equal to Th in the table. Rounded values are under the condition of 
+    NaHCO3 porewater composition. Kd values were calculated using a weighted 
+    average approach based on the sorption properties of individual rock-forming
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 04d79195-4966-5e03-927d-925a74d1684d
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.029
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded realistic value was reported
+    as equal to Th in the table. Rounded values are under the condition of NaCl 
+    porewater composition. Kd values were calculated using a weighted average 
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 57d86bd7-c45d-59a5-b926-8e53d4f24bb0
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded realistic value 
+    was reported as equal to Th in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 6e92c6b1-8664-50f8-91fc-02438b36ddab
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded realistic value was reported as equal to Th in the table. Rounded 
+    values are under the condition of NaHCO3 porewater composition. Kd values 
+    were calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: dbe3a378-9124-525c-a590-badd46f86287
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded realistic value was reported as equal to Th in the table. Rounded 
+    values are under the condition of NaCl porewater composition. Kd values were
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 5878ccd6-38f3-5ab9-8a6c-e8030b3586a7
+Pu:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: e90536f4-b8ce-530c-b424-aec733e58ae7
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: 1.9
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 8f865209-d4a2-5504-b07d-30e7d5048823
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: 6.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 5bd96bea-a964-589d-aaa9-2bb0fa47e2a3
+Am:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: 9.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: fed203d5-67bc-5af1-9d64-92bac6e3e505
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.1
+  value_max: 9.6
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Kd values were calculated
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: 4e3aa128-717b-52ac-b54a-e99717746a4d
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 1
+  value_max: 8.6
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Kd values were calculated using a weighted average approach based on the 
+    sorption properties of individual rock-forming minerals. Value is defined as
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 7d036529-ce7d-575c-a3a7-428e71ba5a1a
+Cm:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for limy marl that is high in carbonates (75 percent 
+    calcite), low in clay minerals (5 percent illite and 4 percent 
+    illite/smectite) and 10 percent quartz. Rounded values were reported as 
+    equal to Am in the table. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: 852b3a8d-0e2f-5807-a0c6-ca1438169070
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for marl that consisting of 95 percent calcite and only 5 
+    percent quartz, with essentially no clay minerals. Rounded values were 
+    reported as equal to Am in the table. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Limestone]
+    ID: fc96d6fd-65db-51df-b55d-c56670b5421d
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for shaly marl that contains approximately 17 percent 
+    illite and 15 percent illite/smectite mixed layers, with 27 percent calcite.
+    Rounded values were reported as equal to Am in the table. Kd values were 
+    calculated using a weighted average approach based on the sorption 
+    properties of individual rock-forming minerals. Value is defined as the best
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone, Limestone]
+    ID: f596b8be-f2c2-5845-b926-8bfb2c6e7fb5

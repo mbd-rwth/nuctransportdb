@@ -1,0 +1,2790 @@
+C:
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 8f4bb4e0-f972-58c9-b20e-670c4038ab8d
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: d91719f7-7729-5b12-85a3-7f821e16cf28
+- source: carbol1997
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: 0.002
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    HCO3-.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: ff1089de-f4a3-561e-b0f7-70448931fe49
+- source: carbol1997
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: 0.002
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is HCO3-.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 92eb833c-47c0-5770-a430-e11a675fc67d
+Cl:
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: a9257012-862a-5c42-8f64-9b9f13d64c90
+- source: stenhouse1995
+  type: scalar
+  value: 0.0
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 653bd876-f350-566f-b4dc-75db38995f26
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Cl-.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 05d5d716-cb33-5679-9fe3-980f9e59c19c
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Cl-.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 65afeb56-e20c-55f0-8113-64d546158b18
+Ni:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 484c8143-82fc-52d8-b19c-6840ef7b169c
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 9efa62d1-529d-5f9f-82b1-11959e45b589
+- source: carbol1997
+  type: scalar
+  value: 0.1
+  value_min: 0.05
+  value_max: 0.5
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Ni(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: ac858233-3994-547f-9ced-ff3603b8036a
+- source: carbol1997
+  type: scalar
+  value: 0.02
+  value_min: 0.01
+  value_max: 0.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Ni(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: ef072e87-461f-52a5-8e2e-0a280800f033
+Se:
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.001
+  value_max: 0.022
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 473953e3-54b0-5ef1-92a4-52516ec414a6
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.001
+  value_max: 0.025
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 0b67d734-c0cd-5c78-9bbb-145cfccce1de
+- source: carbol1997
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: 0.005
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Se(-II, IV, VI).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 791f6564-6d4e-5833-9d29-5c1ae5eb2343
+- source: carbol1997
+  type: scalar
+  value: 0.001
+  value_min: 0.0005
+  value_max: 0.005
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Se(-II, IV, VI).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 03fb8b4f-983a-5544-8371-a417cc4f44ab
+Sr:
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.001
+  value_max: 0.14
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: ac3defcc-5cc6-5cb3-b69b-6f49e2c73f44
+- source: stenhouse1995
+  type: scalar
+  value: 0.01
+  value_min: 0.001
+  value_max: 0.08
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 6f4d7225-debb-5dbe-a0c2-e16058378f9d
+- source: carbol1997
+  type: scalar
+  value: 0.01
+  value_min: 0.005
+  value_max: 0.05
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Sr(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: ab559c13-de08-56af-a4de-8f7d643cbe7d
+- source: carbol1997
+  type: scalar
+  value: 0.0002
+  value_min: 0.0001
+  value_max: 0.001
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Sr(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: bf0b4adf-ef0c-5900-a330-80c2d0ca8d43
+Zr:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 3757575a-b082-51be-bc95-d04f33ed855c
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded realistic value reported as 1 (= Nb). Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 9a6b62b3-4db0-59d6-a59d-47122af02cdc
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.5
+  value_max: 3.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Zr(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 611d6bc4-7b75-5694-b631-03cafd3d0175
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.5
+  value_max: 3.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Zr(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 0a486d24-f4fc-58d6-ab00-1aca3b01c49f
+Nb:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded realistic value reported as 1 (= 
+    Zr). Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 1b69207b-7cb6-5bd9-8d0e-ecf97832f74a
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 6f9b7a70-d2f5-52c8-8973-f5486387faaf
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.5
+  value_max: 3.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Nb(V).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 58fef2b0-d7fb-5831-aa28-b0c4d6ffeef8
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.5
+  value_max: 3.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Nb(V).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: f005028f-0736-510a-bca9-32d5423fe0e9
+
+Tc:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. West-specific rounded realistic and 
+    conservative values are reported in the table. Value is defined as the best 
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 85021eef-83fe-593e-bcea-46bb23eb943d
+- source: stenhouse1995
+  type: scalar
+  value: 0.05
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. East-specific rounded realistic and 
+    conservative values are reported in the table. Value is defined as the best 
+    estimate of Kd, value_min refers to pessimistic estimate used when there are
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 5c94fc32-0d96-5738-91c2-3f3ce52028e1
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. West-specific rounded realistic and conservative values are 
+    reported in the table. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: f2a46b4e-733f-5a4a-97f0-4b6be63b7b62
+- source: stenhouse1995
+  type: scalar
+  value: 0.05
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. East-specific rounded realistic and conservative values are 
+    reported in the table. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 8519af6d-27d9-564f-bacd-ef545f1fd742
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.3
+  value_max: 3.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Tc(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: d3cb181d-1175-5e9d-a08a-364f2afc8b5e
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.3
+  value_max: 3.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Tc(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: b887bfed-93c0-58d0-af3f-abaa7c8e9fbb
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Tc(VII).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 70268198-02ee-5eb4-b3b0-1d9b60af8ee9
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Tc(VII).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 1488dad9-a970-5cc9-85cd-975188f3728e
+Pd:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded values were reported as equal to 
+    Ni. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: b49d6f15-9bcb-5c6b-a366-4d361d626f0b
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded values were reported as equal to Ni. Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 161aedc3-d018-52fd-96c1-4c6da3c68bca
+- source: carbol1997
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: 0.5
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Pd(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 836b041a-8cbd-592b-b64c-8fdd9db06678
+- source: carbol1997
+  type: scalar
+  value: 0.01
+  value_min: 0.001
+  value_max: 0.05
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Pd(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 8f14a5fc-bea8-5516-b49c-fc5f94276408
+Sn:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded values were reported as equal to 
+    Ni. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 0673ec5a-8f5e-55d9-b3d8-35b9b9c31947
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded values were reported as equal to Ni. Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 436c3af6-ea6b-52e6-b17e-f72c210419c2
+- source: carbol1997
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: 0.01
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Sn(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 1f4932fa-ff1c-5564-a753-adc264e1a8a0
+- source: carbol1997
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: 0.01
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Sn(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 2c2a201c-f11b-5ff3-b111-2507aa1e2f58
+I:
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: f3578a20-7c40-587e-a727-7fd6e331e017
+- source: stenhouse1995
+  type: scalar
+  value: 0.001
+  value_min: 0.0
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 0faa21ae-96db-55c5-bd80-10a14e656948
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    I-.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: d4962362-7a7a-5eb3-937a-4a27729c1858
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is I-.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 3a5c176d-eee6-5db1-b992-35328df128c3
+Ra:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.04
+  value_max: 1.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: fff6ca0c-4e69-550d-9b44-8b1b5cd976ec
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: 0.88
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: bf0cd575-cc6f-548a-b9de-4610c919eae1
+- source: carbol1997
+  type: scalar
+  value: 0.1
+  value_min: 0.05
+  value_max: 0.5
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Ra(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: deb7f5f7-1b6f-5e5a-ab86-532ceaa1ff17
+- source: carbol1997
+  type: scalar
+  value: 0.02
+  value_min: 0.01
+  value_max: 0.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Ra(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 9789a35f-f301-5104-b759-8fe4d4dd20e8
+Ac:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded values were reported as equal to 
+    Am. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: e78bf527-e85c-5fe5-9dc8-bb1d22b8a28f
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded values were reported as equal to Am. Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 5e02298a-def1-5951-86bf-142952edba9a
+- source: carbol1997
+  type: scalar
+  value: 3.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Ac(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 4a28bb5f-8064-56aa-aeef-0ee5ec17e8f5
+- source: carbol1997
+  type: scalar
+  value: 3.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Ac(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: a32fef28-ee77-5c52-b0bf-de6310e308d7
+Th:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: 1.4
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: ed1e0cb8-14c6-5603-913b-8dd97a1b7624
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: 1.7
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 2271de9a-d912-5c59-ac1e-502895bf092f
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Th(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 3c42072d-81e0-5cf0-a8cc-ac2d236e9acd
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Th(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: a861434a-97d8-5afc-8be5-a3a09d6e1892
+Pa:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded values were reported as equal to 
+    Zr. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 69c436e1-c2c8-5620-bfdf-c346141e018e
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.1
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded values were reported as equal to Zr. Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 31aafa2b-0d6e-5f5b-ad06-fe7b70d93b86
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.5
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Pa(IV,V).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 366f8b8a-84de-535a-bb6a-c1ac9f290606
+- source: carbol1997
+  type: scalar
+  value: 1.0
+  value_min: 0.5
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Pa(IV,V).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 2a9b07ae-a879-5e22-aa7b-9616a8737e12
+U:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded realistic value was reported as 
+    equal to Th. West-specific conservative rounded value is reported in the 
+    table. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 01eaf295-4a2f-577f-a2e7-b5a983d2407f
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.03
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded realistic value was reported as 
+    equal to Th. East-specific conservative rounded value is reported in the 
+    table. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 51a8b2c1-1a0a-57a8-b12b-39e5fa7fa605
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.06
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded realistic value was reported as equal to Th. West-specific
+    conservative rounded value is reported in the table. Value is defined as the
+    best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: e4cc8952-a4b9-5a64-87c7-2af7be5ebfa0
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.03
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded realistic value was reported as equal to Th. East-specific
+    conservative rounded value is reported in the table. Value is defined as the
+    best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: d69aec2f-dc1a-5be9-bcc4-c8d74d195227
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    U(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 1b7374d9-8b5b-5002-9eb2-707a6ed185ed
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is U(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 9d105bbf-bb68-5dda-8c83-809dd551229f
+- source: carbol1997
+  type: scalar
+  value: 0.01
+  value_min: 0.005
+  value_max: 0.02
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    U(VI).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: a9bf0075-3edd-5438-b9cd-014117b7ff5d
+- source: carbol1997
+  type: scalar
+  value: 0.005
+  value_min: 0.001
+  value_max: 0.01
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is U(VI).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 96dc8eb5-e93d-507c-ad32-83c21a8a7a5a
+Np:
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.03
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded realistic value was reported as 
+    equal to Th. Value is defined as the best estimate of Kd, value_min refers 
+    to pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 930a4201-5f43-52ea-8f2d-b5e2506cb459
+- source: stenhouse1995
+  type: scalar
+  value: 1
+  value_min: 0.03
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded realistic value was reported as equal to Th. Value is 
+    defined as the best estimate of Kd, value_min refers to pessimistic estimate
+    used when there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 3d271d26-71ac-57b8-8aa6-454ae2c2ed0f
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Np(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 4a7411b4-41d3-50cb-bf3c-e7bd55ff0533
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Np(IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: e36e09e9-00da-597a-ac88-d17449c27e8f
+- source: carbol1997
+  type: scalar
+  value: 0.01
+  value_min: 0.005
+  value_max: 0.05
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Np(V).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: a44e71c8-41d3-5938-8aa5-7803b013cfa1
+- source: carbol1997
+  type: scalar
+  value: 0.005
+  value_min: 0.001
+  value_max: 0.01
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Np(V).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 32683cf4-72e0-572b-82c7-2c79eee49f0a
+Pu:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.33
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 6fde0429-fdf4-525d-aa44-09ccd7405d3d
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.29
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 701ed0eb-5751-5e08-a17f-0d01ac802838
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Pu(III,IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: b1a00d80-18a7-501d-a2ee-30e439cb068e
+- source: carbol1997
+  type: scalar
+  value: 5.0
+  value_min: 1.0
+  value_max: 10.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Pu(III,IV).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 52c59c09-cd2c-52d9-b09f-3a0a66168610
+Am:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: 5.4
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Value is defined as the best estimate of 
+    Kd, value_min refers to pessimistic estimate used when there are 
+    perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: bf795d91-4fe3-53cf-8c58-5d71cc32dfd9
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.4
+  value_max: 5.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: febcbe4a-2203-5bdd-ad9f-a01d9ebe0014
+- source: carbol1997
+  type: scalar
+  value: 3.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Am(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: e7276274-c26e-5ff3-8549-2c559c50c82d
+- source: carbol1997
+  type: scalar
+  value: 3.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Am(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 820d1b65-0449-581a-9652-b4532c6232e4
+Cm:
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded values were reported as equal to 
+    Am. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 68409021-2792-5c0c-859a-386c606a8f5a
+- source: stenhouse1995
+  type: scalar
+  value: 5
+  value_min: 0.5
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded values were reported as equal to Am. Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 4fbd4264-293a-51f0-8d88-36e87f3a292e
+- source: carbol1997
+  type: scalar
+  value: 3.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Cm(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 4e2fec64-8788-542a-a7f9-da99475efb94
+- source: carbol1997
+  type: scalar
+  value: 3.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Cm(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: b8b7d878-d850-5455-9379-31b46cc343b8
+Pb:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. Kd values were calculated 
+    using a weighted average approach based on the sorption properties of 
+    individual rock-forming minerals. Rounded values were reported as equal to 
+    Ni. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 53b439c3-cdbb-529a-b3be-9c5de6a73505
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.05
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. Kd values were calculated using a weighted average
+    approach based on the sorption properties of individual rock-forming 
+    minerals. Rounded values were reported as equal to Ni. Value is defined as 
+    the best estimate of Kd, value_min refers to pessimistic estimate used when 
+    there are perturbations to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 65a5b586-9074-5db5-b105-5a854c1bd214
+Co:
+- source: carbol1997
+  type: scalar
+  value: 0.1
+  value_min: 0.05
+  value_max: 0.5
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Co(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 7cac7042-10ad-55d1-9e29-79927a2cda9d
+- source: carbol1997
+  type: scalar
+  value: 0.02
+  value_min: 0.01
+  value_max: 0.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Co(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 6f99608f-f327-5f51-80e3-82508e66ff5e
+Kr:
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    inert gas.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: fbf35d36-3ded-5d63-bded-bfef30d8f258
+- source: carbol1997
+  type: scalar
+  value: 0.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is inert gas.
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 7a8eb866-9dd5-55bc-9a8c-be67dca25a58
+Ag:
+- source: carbol1997
+  type: scalar
+  value: 0.5
+  value_min: 0.1
+  value_max: 1.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Ag(I).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 9fd7ae09-9f76-5417-8dfd-7f8fe26a28c0
+- source: carbol1997
+  type: scalar
+  value: 0.05
+  value_min: 0.01
+  value_max: 0.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Ag(I).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 1d72059b-84f0-59ca-9b5d-72c95ae2a3bd
+Cd:
+- source: carbol1997
+  type: scalar
+  value: 0.1
+  value_min: 0.05
+  value_max: 0.5
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Cd(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 8aaf5046-9597-5f9e-b762-e2d109ad9653
+- source: carbol1997
+  type: scalar
+  value: 0.02
+  value_min: 0.01
+  value_max: 0.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Cd(II).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 902b7cc4-0156-57b0-bcc1-1627ce4826c7
+Cs:
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.03
+  value_max: 0.58
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. This entry is valid for an 
+    equilibrium concentration Cs < 1e-8 M. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: f64224f9-ddeb-547e-bc07-50fc55cb3911
+- source: stenhouse1995
+  type: scalar
+  value: 0.5
+  value_min: 0.04
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. This entry is valid for an equilibrium 
+    concentration Cs < 1e-8 M. Kd values were calculated using a weighted 
+    average approach based on the sorption properties of individual rock-forming
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: 801aba20-5504-5ff9-95e2-429645fca789
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that contains high concentrations of 
+    minerals like quartz, muscovite, and calcite. This entry is valid for an 
+    equilibrium concentration Cs < 3.5e-7 M. Kd values were calculated using a 
+    weighted average approach based on the sorption properties of individual 
+    rock-forming minerals. Value is defined as the best estimate of Kd, 
+    value_min refers to pessimistic estimate used when there are perturbations 
+    to the natural (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: dab61f37-0b5b-54e6-9895-008bf9b263f5
+- source: stenhouse1995
+  type: scalar
+  value: 0.1
+  value_min: 0.01
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Values for crystalline that often includes plagioclase, 
+    K-feldspar, and chlorite. This entry is valid for an equilibrium 
+    concentration Cs < 3.5e-7 M. Kd values were calculated using a weighted 
+    average approach based on the sorption properties of individual rock-forming
+    minerals. Value is defined as the best estimate of Kd, value_min refers to 
+    pessimistic estimate used when there are perturbations to the natural 
+    (reference) system.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Crystalline]
+    ID: d2fe6423-db51-5a2c-984f-4ef88e6911b3
+- source: carbol1997
+  type: scalar
+  value: 0.5
+  value_min: 0.1
+  value_max: 1.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Cs(I).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 49c2b1e1-2e57-5a10-a025-beb478bfab3b
+- source: carbol1997
+  type: scalar
+  value: 0.05
+  value_min: 0.01
+  value_max: 0.1
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Cs(I).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: cad63431-6693-5720-a023-d58b1d819aed
+Sm:
+- source: carbol1997
+  type: scalar
+  value: 2.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Sm(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: e515fcf2-3cb6-5f7b-b86b-a07e6ee0cb8d
+- source: carbol1997
+  type: scalar
+  value: 2.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Sm(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 7b3a5c75-7811-517a-a936-f2bd57874005
+Eu:
+- source: carbol1997
+  type: scalar
+  value: 2.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Eu(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: fb074810-dea6-569e-a447-4046ff0f8a7e
+- source: carbol1997
+  type: scalar
+  value: 2.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Eu(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: ac066d24-441c-5555-8efe-01e801edcba2
+Ho:
+- source: carbol1997
+  type: scalar
+  value: 2.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for non-saline groundwater on 
+    granitic rock. The non-saline groundwater is represented by the Gidea site, 
+    defined by pH larger or equal to 7, chloride concentrations less than 500 
+    mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 12-1 is 
+    Ho(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: 9d8b280b-d4a9-543f-b251-c9202ad57ba3
+- source: carbol1997
+  type: scalar
+  value: 2.0
+  value_min: 1.0
+  value_max: 5.0
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value refers to the recommended Kd for saline groundwater on 
+    granitic rock. The saline groundwater is represented by the Aspo site, 
+    defined by pH larger or equal to 7, chloride concentrations between 500 mg/l
+    and 6500 mg/l, and Eh less than -200 mV. Chemical form/redox state in Table 
+    12-1 is Ho(III).
+  tag:
+    agency: [SKB]
+    location: [Sweden]
+    simplified_lithology: [Crystalline]
+    ID: dc7e9a15-33f4-507b-b4c8-a5b4f1bf15df

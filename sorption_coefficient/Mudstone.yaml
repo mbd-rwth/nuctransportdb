@@ -1,0 +1,5705 @@
+H:
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The species 
+    designation in Table 7.1 is H (HTO).
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8ade980c-0f7c-5e10-9770-a50d958c6adc
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The species 
+    designation in Table 7.1 is H (HTO).
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7b9cf0e2-9c15-5405-90a3-93a069f540a4
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The species 
+    designation in Table 7.1 is H (HTO).
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 555313cc-190a-5f13-9cfc-c110010f4d31
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The species 
+    designation in Table 7.1 is H (HTO).
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 051b56e7-827c-5a1e-a64f-51ed908a23c2
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The species 
+    designation in Table 7.1 is H (HTO).
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e995bd83-1129-50f6-9119-626d1269b14a
+Be:
+- source: bradbury2010
+  type: scalar
+  value: 1.3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4de0bf4a-7250-5e55-a52f-d74337f04bfe
+- source: bradbury2010
+  type: scalar
+  value: 0.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 80ffb7eb-7ed9-5a35-878a-2588c8cc0445
+- source: bradbury2010
+  type: scalar
+  value: 0.19
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1d38f06e-381c-53af-a80e-03f3db7f2169
+- source: bradbury2010
+  type: scalar
+  value: 3.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: abd145b3-51cc-5183-b3a3-a4a6883d8cc8
+- source: bradbury2010
+  type: scalar
+  value: 3.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 63350936-b714-5f3d-aae4-0c5f91078488
+C:
+- source: bradbury2010
+  type: scalar
+  value: 0.00057
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The species 
+    designation in Table 7.1 is inorganic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 48acc4a7-9118-50b8-8c63-4018c405194b
+- source: bradbury2010
+  type: scalar
+  value: 6.2e-05
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The species 
+    designation in Table 7.1 is inorganic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 875b7a01-c91a-5d9b-9b0c-a3cbf2f36e62
+- source: bradbury2010
+  type: scalar
+  value: 5.4e-05
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The species 
+    designation in Table 7.1 is inorganic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 9033bb7e-5465-5ee5-8de2-5f1ede8d06e1
+- source: bradbury2010
+  type: scalar
+  value: 0.0054
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The species 
+    designation in Table 7.1 is inorganic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 9226fac4-7a7e-5e48-9397-414c776e8911
+- source: bradbury2010
+  type: scalar
+  value: 0.0043
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The species 
+    designation in Table 7.1 is inorganic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: af4c2ef1-0242-58d5-902d-82f951cb6676
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The species 
+    designation in Table 7.1 is organic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b1216866-ebc6-5325-95e1-44bb3b372a8f
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The species 
+    designation in Table 7.1 is organic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a5ae0fb8-7433-56c9-98e3-53d1781513d1
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The species 
+    designation in Table 7.1 is organic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 74ed0ea2-bd5c-5922-83dc-571a4a4e0c76
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The species 
+    designation in Table 7.1 is organic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: eacaf669-3e23-5f10-888e-4b7b9d1ad2c2
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The species 
+    designation in Table 7.1 is organic carbon.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1f0e6988-00d5-54c4-978e-4415111afac8
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.002
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 449adc38-4601-542b-8194-ecf05ef75e37
+Cl:
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 345da671-f791-521e-bb95-b7f0bfab0aa7
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 508d9a18-f27a-5e93-b8be-4b5908bad6a8
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 94eb0a8a-c8f3-5a2c-ae7c-760da9c8a794
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: bbc9ecda-cc37-5160-aac9-7b09becd357d
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 2b3ba439-2bcd-5a46-8d1f-383ddb9f7790
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.0001
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: a9674935-b0a7-50bd-b1c6-c64fd80f5f55
+K:
+- source: bradbury2010
+  type: scalar
+  value: 0.0055
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4a2e3248-08ac-5658-a6e0-d72efc371c77
+- source: bradbury2010
+  type: scalar
+  value: 0.01
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 26c83e5a-6e5b-5386-abfe-3517958c4494
+- source: bradbury2010
+  type: scalar
+  value: 0.0033
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1d6c5873-25ae-5ef7-b227-9ea4925c368d
+- source: bradbury2010
+  type: scalar
+  value: 0.01
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7eef500e-fabe-540f-b1fa-d5da1d86ed33
+- source: bradbury2010
+  type: scalar
+  value: 0.0033
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 77cba53f-cee6-5f6d-a2a0-79e17f9e693c
+Ca:
+- source: bradbury2010
+  type: scalar
+  value: 0.0013
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 26c79027-f215-56d7-82c0-bda5bf86bcd1
+- source: bradbury2010
+  type: scalar
+  value: 0.0011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 6f5340cd-b5da-56d5-bdf9-8affb32bde80
+- source: bradbury2010
+  type: scalar
+  value: 0.00035
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7de5d47e-6c92-5d3c-9d2e-2a22593684e4
+- source: bradbury2010
+  type: scalar
+  value: 0.0055
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 32123786-84c0-533e-9d87-f244e0aa52c1
+- source: bradbury2010
+  type: scalar
+  value: 0.00055
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f3d828ed-29c6-559f-89e6-84b5d89dc404
+Co:
+- source: bradbury2010
+  type: scalar
+  value: 0.48
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 621b46be-9a96-51b6-a6e5-40d8049dd3ee
+- source: bradbury2010
+  type: scalar
+  value: 0.051
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: cf04e40b-6cae-5058-b473-ea2b3bb96f77
+- source: bradbury2010
+  type: scalar
+  value: 0.044
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 46d02195-8113-579f-a3a0-492baefadd39
+- source: bradbury2010
+  type: scalar
+  value: 12
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 16995945-41cf-5881-96f5-655da8be8491
+- source: bradbury2010
+  type: scalar
+  value: 11
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b95b974e-123d-5cbe-896c-7ad9eba1972b
+Ni:
+- source: bradbury2010
+  type: scalar
+  value: 0.98
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: bb2f8a3b-fc3f-52a5-a03f-b733b13465f3
+- source: bradbury2010
+  type: scalar
+  value: 0.19
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b9d034b8-1f84-54b3-ac27-ed867c9747a2
+- source: bradbury2010
+  type: scalar
+  value: 0.15
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 023f0643-ff1c-5fd2-a651-2043a577260e
+- source: bradbury2010
+  type: scalar
+  value: 3.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7eda16b6-5d0e-560d-a127-a8ea99d6da04
+- source: bradbury2010
+  type: scalar
+  value: 2.6
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a6003225-f277-5d6f-ad5f-968c30dbebb1
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 877cef5a-ab7c-5109-8d6d-940252fbcc4e
+Se:
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is -2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ff29db1a-6cf7-568e-b34a-9ce2f54b5c23
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is -2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 9991d8fc-bf5d-5501-ad13-b87cb1692832
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is -2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: db901246-21b7-5950-a122-b5f4d65f62a0
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is -2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 62bbec17-ee4e-5383-a7c8-5f30ac7ad729
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is -2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4b47ec01-239e-52f6-afa9-fb3536ee0885
+- source: bradbury2010
+  type: scalar
+  value: 0.0032
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4e89119d-9a6a-5f81-a03e-fcf0f9a9e9c1
+- source: bradbury2010
+  type: scalar
+  value: 0.018
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4f8a2111-644a-50a2-bca7-dd4ae489daef
+- source: bradbury2010
+  type: scalar
+  value: 0.018
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 2c7fdd8b-47dc-5400-b75c-d769adb4a7f3
+- source: bradbury2010
+  type: scalar
+  value: 0.00028
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: cdef1722-3348-5945-a9b5-142b4ff18458
+- source: bradbury2010
+  type: scalar
+  value: 0.00028
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8ed0eb18-2cb6-527e-a4af-d0ee417a191b
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 526aa5b3-52d9-5159-a2cc-0a7439fe7e96
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4ac716ce-3afa-5140-8f31-504f865ca384
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 42b86ad6-e577-5b91-86c0-6719b2325de0
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: fca4bc7a-42b7-5b8d-91ab-5e3451511404
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 053b10d0-72ea-5971-92ca-d173cdf8c7ff
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.001
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: dd34ec7e-b780-539d-9182-b4bba271b82e
+Sr:
+- source: bradbury2010
+  type: scalar
+  value: 0.0013
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8ba2b17a-ded2-5dac-9011-cce327c6e88f
+- source: bradbury2010
+  type: scalar
+  value: 0.0011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 9e50f22b-2b70-555f-b9a7-a3c761681027
+- source: bradbury2010
+  type: scalar
+  value: 0.00035
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 46201ca0-b322-512c-b85d-4a8de6679c53
+- source: bradbury2010
+  type: scalar
+  value: 0.0055
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f8e8a581-001f-5296-a10b-d1c97ff6db01
+- source: bradbury2010
+  type: scalar
+  value: 0.00055
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 84a45569-7e24-55e0-b944-9e53c6397753
+Zr:
+- source: bradbury2010
+  type: scalar
+  value: 5.5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: dae5ae71-b60f-538c-a7c9-ece9c84e5a1a
+- source: bradbury2010
+  type: scalar
+  value: 42
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e92ef6e6-f422-5a38-91f2-e9b46bb0cdde
+- source: bradbury2010
+  type: scalar
+  value: 42
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: bd8e0454-a170-5490-aa0c-7f520d2e4ec2
+- source: bradbury2010
+  type: scalar
+  value: 0.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e52df491-c5a8-5621-81fe-0a2ef596779b
+- source: bradbury2010
+  type: scalar
+  value: 0.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 86b226e0-3fac-5280-a464-7448760790dd
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: c0c02470-d522-593c-9344-1146a60492e7
+Hf:
+- source: bradbury2010
+  type: scalar
+  value: 5.5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ea439809-8984-5310-99fa-1397e0202f7c
+- source: bradbury2010
+  type: scalar
+  value: 42
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f9b421b5-45b9-5101-b5cc-8f6a6098b27c
+- source: bradbury2010
+  type: scalar
+  value: 42
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4de3a80c-3ec6-5a72-a067-5a9095ad3384
+- source: bradbury2010
+  type: scalar
+  value: 0.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 40180999-3501-59ee-a565-31c682a5bc42
+- source: bradbury2010
+  type: scalar
+  value: 0.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: eea22a4b-d6b3-5ea6-adef-c9b3d190825e
+Nb:
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 30a6ef42-ef20-5e98-9e43-8f71ad545af4
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 125f1882-b336-5f03-80b1-307e7d16caab
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b8fc5ea7-b7bc-521c-9358-50d573595f44
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 6e0c7ba9-dac1-513c-8650-c86f26a83b0d
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 490c29f3-764b-53ae-bae2-962344b3db49
+Mo:
+- source: bradbury2010
+  type: scalar
+  value: 0.0078
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 44f21cb4-a358-5aa8-b161-5c611cd8fda8
+- source: bradbury2010
+  type: scalar
+  value: 0.018
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7dd5fcf8-0e5e-5d09-aae9-ebeac748540d
+- source: bradbury2010
+  type: scalar
+  value: 0.018
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a7db5885-2ef0-5208-b62e-66a3a8677b15
+- source: bradbury2010
+  type: scalar
+  value: 0.0023
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 70001ef2-c972-5eea-ace4-0f3424daba4f
+- source: bradbury2010
+  type: scalar
+  value: 0.0023
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: fcab5bb0-0511-597d-b674-b036fff7e6b6
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.001
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 52209d66-27f8-53ae-9701-87df0e2b9672
+Tc:
+- source: bradbury2010
+  type: scalar
+  value: 0.49
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 49ceda48-16f1-5164-93b1-c269900a6c30
+- source: bradbury2010
+  type: scalar
+  value: 0.033
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ae1ebcb0-f4c6-59df-8fce-05159da4c12f
+- source: bradbury2010
+  type: scalar
+  value: 0.031
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 27369b50-a1ef-5c14-b1f8-afca1f9a957e
+- source: bradbury2010
+  type: scalar
+  value: 0.61
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 64336c44-6f56-5ab9-8767-4f8a392c42f0
+- source: bradbury2010
+  type: scalar
+  value: 0.61
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 3a07dcd8-900a-51ba-8547-9f5c2f34d558
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +7.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 914c7ff5-f1b3-567d-ba4a-3fff5fa42fdc
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +7.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 983ed64a-c7ce-5c17-b10d-3c0ad3ffbad4
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +7.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ea1d6980-9b9c-5f89-9b50-b63ccd86977a
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +7.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4a7e8866-e0df-50ab-8428-4ac05be76261
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +7.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 631ef906-b294-5101-b55f-fbefe2d6c937
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.006
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: d4a66e45-4f62-5e5a-8843-25ac3962e315
+Ru:
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a8cfaa42-c77d-5b08-a823-8a5f846bda0d
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b040742a-946e-597b-b958-457147168b4a
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 965d432f-6653-5ac4-9458-b1323844e2c1
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8f2026ae-dc35-5fb6-873f-c1e71f9cac4b
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 83015a3a-6f3f-5028-8b2b-ab7b5fa00240
+Pd:
+- source: bradbury2010
+  type: scalar
+  value: 8.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 5a671bd7-6e5a-5d66-9f85-4ab8b83e5cf0
+- source: bradbury2010
+  type: scalar
+  value: 5.8
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8473f97d-5571-56d3-9df7-c0201edc3e0b
+- source: bradbury2010
+  type: scalar
+  value: 0.14
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 35314be1-4b47-5e9d-9411-3939f4727f45
+- source: bradbury2010
+  type: scalar
+  value: 8.5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 692a2d9a-5402-5cda-bcc2-14a2cf76eb21
+- source: bradbury2010
+  type: scalar
+  value: 8.5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 63d1a598-0264-5a54-92ad-a921bd6f1eae
+Ag:
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f0e2ecbe-83fa-5fa1-9ddd-cd01ff338bf5
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f1dc4a2e-f91b-580a-9b43-19b931a82713
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 6feeb97b-bb91-559d-a6c8-3a162b28dd6b
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 40c170e9-336e-53af-b766-806693cf0c00
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e9c62414-46a3-547c-8822-b14789d88caf
+Cd:
+- source: bradbury2010
+  type: scalar
+  value: 0.15
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: cc80ef0b-b4bb-5e63-b451-a8cd22e28c53
+- source: bradbury2010
+  type: scalar
+  value: 0.058
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a6e57256-cdee-5a3d-9ba9-86f13a99c3a5
+- source: bradbury2010
+  type: scalar
+  value: 0.015
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1b192d45-1fcb-5cb9-8d02-5f5f2f61b7c4
+- source: bradbury2010
+  type: scalar
+  value: 0.68
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 24ce1d9c-3225-5407-a544-86d635719197
+- source: bradbury2010
+  type: scalar
+  value: 0.21
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: da8046d4-1f8b-5f1e-befe-6c0906031d8a
+Sn:
+- source: bradbury2010
+  type: scalar
+  value: 57
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 873d3357-da8d-5b0b-acac-b8dd447f197f
+- source: bradbury2010
+  type: scalar
+  value: 70
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8d3c8697-f27a-5f5d-b919-d71d115d6294
+- source: bradbury2010
+  type: scalar
+  value: 70
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 099086e1-027e-5338-a407-990fb0855cb1
+- source: bradbury2010
+  type: scalar
+  value: 4.6
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b290ef59-391d-5e6f-b2f7-0ea8f585c761
+- source: bradbury2010
+  type: scalar
+  value: 44
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7c2431a0-f7d4-580c-b4a0-3f4977c7a7ce
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 353b983b-71e6-5496-a168-e8bf267bd094
+Bi:
+- source: bradbury2010
+  type: scalar
+  value: 8.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: da6b6e42-55de-5ecf-8f5f-96a28ffcb646
+- source: bradbury2010
+  type: scalar
+  value: 2.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ddef121f-beca-5c3c-ac57-83aff7b4ae5c
+- source: bradbury2010
+  type: scalar
+  value: 2.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e588a5b1-a8ee-510a-8a5e-f6c1fcd6c27d
+- source: bradbury2010
+  type: scalar
+  value: 8.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: eb44b302-2bd5-5f3d-b54a-131ce5a1cd96
+- source: bradbury2010
+  type: scalar
+  value: 8.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 03a5dd4d-885d-592d-a2ed-8362c7a30ed8
+Sb:
+- source: bradbury2010
+  type: scalar
+  value: 8.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: db22c5a5-f38f-5b86-9727-099649de1569
+- source: bradbury2010
+  type: scalar
+  value: 2.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e12b705a-0121-53f3-95f0-c0354cbf1846
+- source: bradbury2010
+  type: scalar
+  value: 2.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f82b9dcf-589e-5d18-adb9-569f149b1323
+- source: bradbury2010
+  type: scalar
+  value: 8.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 655b5656-07d4-579e-b44d-2c761d6a493f
+- source: bradbury2010
+  type: scalar
+  value: 8.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 6ecf4792-b722-512a-b491-bee5e0e2877b
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 14d98a6c-06f2-5c98-97ca-849efd4740c3
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 59218ee3-f1f5-5c72-bdff-3a046e91a6f3
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 426b0f01-85c0-5ea1-b917-ebba6b16d60a
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 719b8397-dab7-5cac-84f6-cbfb00dac547
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a83bc3f5-f79a-5adc-adcd-2838a1c53544
+I:
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: fe90297e-2a9d-548f-91c4-695f9535544d
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: bb49b21a-9ea2-50ff-9691-d515872f457e
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 2b8ef203-f63c-5102-9d7e-32f3e858e136
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 2cdb5c91-7a13-514d-92c3-f75b85fd7ffa
+- source: bradbury2010
+  type: scalar
+  value: 0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is -1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: bbfbbf4f-07b2-5395-a60c-27aa7bfa4b7e
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.002
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 18d3664b-b3cf-5463-a4c4-708bc66db24a
+Cs:
+- source: bradbury2010
+  type: scalar
+  value: 2.4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 673e231d-aa77-56fb-a579-c0515d09cb34
+- source: bradbury2010
+  type: scalar
+  value: 4.6
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 3c683560-27a8-551c-946a-aa891b4b488a
+- source: bradbury2010
+  type: scalar
+  value: 1.5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: eb0acaff-142b-5bc0-9ccb-76dfb8e583b2
+- source: bradbury2010
+  type: scalar
+  value: 3.8
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 0203850b-c155-5207-8e02-67d125d2b5a0
+- source: bradbury2010
+  type: scalar
+  value: 1.5
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +1.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 437c267d-a5f2-51fa-9364-77102e345934
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.4
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 72a6582b-ac52-5142-bc0f-2827c3190fbe
+Eu:
+- source: bradbury2010
+  type: scalar
+  value: 0.74
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f96d7304-c2a2-5f8a-869b-d402503ec5a2
+- source: bradbury2010
+  type: scalar
+  value: 0.23
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8744bb85-0166-5c42-81d0-dda623eed80b
+- source: bradbury2010
+  type: scalar
+  value: 0.25
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ece7cd63-f629-5df3-a271-be85e5f25c71
+- source: bradbury2010
+  type: scalar
+  value: 24
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a8b1b267-944d-5792-8d33-382d91c23e8b
+- source: bradbury2010
+  type: scalar
+  value: 22
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: fefd5295-71b4-5553-bda6-f6010cf83fa9
+Ln:
+- source: bradbury2010
+  type: scalar
+  value: 0.74
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 56d48637-ca08-55cb-bd23-5b8c64efcc0a
+- source: bradbury2010
+  type: scalar
+  value: 0.23
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 84445173-e745-55bb-98d3-38341232e4c0
+- source: bradbury2010
+  type: scalar
+  value: 0.25
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f00efb54-9d62-5d6f-981b-0bd946b0a050
+- source: bradbury2010
+  type: scalar
+  value: 24
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 682ecbef-9f53-54a8-96ca-6acd880b284e
+- source: bradbury2010
+  type: scalar
+  value: 22
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e54d86df-d04f-587b-8903-e13d6c6fac1d
+Pb:
+- source: bradbury2010
+  type: scalar
+  value: 0.78
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a96b8952-bc61-5cf3-ab83-0f2a2438b848
+- source: bradbury2010
+  type: scalar
+  value: 0.36
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e9d479e8-ffdb-5008-a8a3-25cc6f15e43a
+- source: bradbury2010
+  type: scalar
+  value: 0.22
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 13fe583e-3218-51c7-86e6-f8a40ad33945
+- source: bradbury2010
+  type: scalar
+  value: 3.8
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 5246ffe9-fba1-54fe-9b21-8b9c548e87a5
+- source: bradbury2010
+  type: scalar
+  value: 3.8
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 237c9515-551e-5e9f-a4ca-e51324a72e90
+Po:
+- source: bradbury2010
+  type: scalar
+  value: 0.0032
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 58f4a23e-7043-5363-977e-9c2d42c7e763
+- source: bradbury2010
+  type: scalar
+  value: 0.018
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 3f784cfb-ae30-5287-9196-132d9106d36e
+- source: bradbury2010
+  type: scalar
+  value: 0.018
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8c767964-5832-51ff-99cc-b70babb89b93
+- source: bradbury2010
+  type: scalar
+  value: 0.00028
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 68f5afad-7669-5f83-8ea0-ca9f747321cc
+- source: bradbury2010
+  type: scalar
+  value: 0.00028
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 9b82c2f5-7db0-5144-bb34-ef04f1181c20
+Ra:
+- source: bradbury2010
+  type: scalar
+  value: 0.00098
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ed5c0a23-c7c1-50f1-b902-e4fc919d557a
+- source: bradbury2010
+  type: scalar
+  value: 0.001
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: cbc1fbb4-ca30-5cd0-9031-0202eef9ab10
+- source: bradbury2010
+  type: scalar
+  value: 0.00028
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 54937ba7-2f99-5326-a8e0-0b74426075fe
+- source: bradbury2010
+  type: scalar
+  value: 0.0043
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1ce3b082-164f-5201-b95e-94c081a810f1
+- source: bradbury2010
+  type: scalar
+  value: 0.00038
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +2.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f7f5386c-4833-5370-b383-788bed8cbd67
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 74eecc09-3d9e-54b7-b949-1ef4e09b3bfa
+Th:
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 6e990674-5df7-5716-8d45-116cbd69993f
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ca275470-bdae-5687-8712-0968b67055fc
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a7d33c37-1f91-5a68-b497-b8f2477b3ec0
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: c5167204-0784-54cf-8ef7-0cccd53e0a5a
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e696220e-ef9c-5dbf-a05a-174bbcf5dc01
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 2.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 1acebe51-6159-5dc6-b66d-28ddb017c380
+Pa:
+- source: bradbury2010
+  type: scalar
+  value: 13
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e25b49e1-c4a2-5a49-9f75-a2b2aae1e66f
+- source: bradbury2010
+  type: scalar
+  value: 13
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4526e622-8ae3-5393-928a-01f97a5439ff
+- source: bradbury2010
+  type: scalar
+  value: 13
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 70a32102-e71f-50e6-8b15-fce53bd9f535
+- source: bradbury2010
+  type: scalar
+  value: 13
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4c0ed2b6-27a8-5147-9c4d-f296185db115
+- source: bradbury2010
+  type: scalar
+  value: 13
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 5071d658-4094-5fab-a8bb-0ea7449b8bbc
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 60.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 2478a84a-f20e-5019-a5c1-c8c112576b23
+U:
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a0bbf977-7867-59a3-97eb-a0b6176c8bb4
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ceab230c-9883-5768-97f7-4ff65529e829
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f6de0269-315b-5ea3-a21d-f26c629803b9
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 5972698c-6b63-540c-ad8a-3ea0684c052c
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 764279c9-1613-58d5-9402-d31ecfeba182
+- source: bradbury2010
+  type: scalar
+  value: 0.00027
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 90d5234e-9aa7-52a0-a7f7-1cc10dce204d
+- source: bradbury2010
+  type: scalar
+  value: 0.00014
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 627ef5bb-dae2-5663-9135-3b91c49a0114
+- source: bradbury2010
+  type: scalar
+  value: 0.00011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 86639beb-1337-5a6a-a2ef-6142110c7019
+- source: bradbury2010
+  type: scalar
+  value: 0.0061
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ecb06a87-feb7-506e-9efd-720f88444801
+- source: bradbury2010
+  type: scalar
+  value: 0.0029
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +6.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: ddf54b39-23f0-50b6-b0b4-2370485e8f98
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.08
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: b3703167-a195-52bc-91ef-c0bccf83b390
+Np:
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e158700a-1848-5a37-83b8-aad733cf7813
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 8f8ab52a-7565-5d6c-85db-0dbec86e649d
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: c4d12f67-a618-534e-96ee-a3f4748d6893
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1a12a438-6f5a-5368-8055-a76026e92eaf
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 5a1cdf16-ff4a-559d-802d-cf2896082bf8
+- source: bradbury2010
+  type: scalar
+  value: 0.0042
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e04afb6e-bfd3-5634-a93b-695ca8200606
+- source: bradbury2010
+  type: scalar
+  value: 0.0011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 49c410ee-37f5-5285-aaeb-31717bf808bb
+- source: bradbury2010
+  type: scalar
+  value: 0.0011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 3335061d-b2f2-5383-8035-be4a5ffbadc8
+- source: bradbury2010
+  type: scalar
+  value: 0.014
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 26ebe093-fe25-5553-8ebd-50a4093ae2b5
+- source: bradbury2010
+  type: scalar
+  value: 0.013
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f69eb1a3-c70a-5d6b-8bf1-9098e5d2f097
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 0.3
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: f8b1b4ef-54d9-536a-9909-6ff2360d6845
+Pu:
+- source: bradbury2010
+  type: scalar
+  value: 2.6
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 4042fbbf-ef65-5b65-9b93-5e4e90e7e371
+- source: bradbury2010
+  type: scalar
+  value: 0.97
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1836bde2-2a94-5060-8ac1-195c46573d2a
+- source: bradbury2010
+  type: scalar
+  value: 0.98
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 414f2c34-3af7-580a-9a80-9c229517777b
+- source: bradbury2010
+  type: scalar
+  value: 11
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: e3e3aa6a-9b7a-5689-869c-03e97b46c269
+- source: bradbury2010
+  type: scalar
+  value: 11
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b4217164-1284-5ed7-aa5c-408078391df0
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: c192a9e4-199a-54f3-b08b-6b05cfe9ee1a
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 50f95671-abc0-5a33-9136-ed51752fc060
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 2d89f9c2-4c24-5108-9d7a-0a58119a6112
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 0b533bab-b4bc-5677-adb3-77202125fb90
+- source: bradbury2010
+  type: scalar
+  value: 63
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +4.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 06bf68bb-ac93-5778-a60c-9575a01debe9
+- source: bradbury2010
+  type: scalar
+  value: 0.0035
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: c9b7143a-2312-5b6a-bb61-1ac86402dcae
+- source: bradbury2010
+  type: scalar
+  value: 0.0011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: f7889703-e24c-57c3-aec6-0a70b0b1b765
+- source: bradbury2010
+  type: scalar
+  value: 0.0011
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b8aad439-1c73-5fc6-8a60-e49969de4242
+- source: bradbury2010
+  type: scalar
+  value: 0.012
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 5950eb1a-c7df-5492-9f9b-f201d2a4a1da
+- source: bradbury2010
+  type: scalar
+  value: 0.012
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +5.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 22190183-449c-5e80-bc28-1cf55c06b1db
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 3.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: 685dbb2d-6c60-59b5-8fc7-d866a2e54ba0
+Am:
+- source: bradbury2010
+  type: scalar
+  value: 2.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 1255163b-855b-5321-99e9-f4d792b58ea3
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 047f54bc-99f8-5a9a-905e-8439de9003af
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 479aec57-0b09-5a55-a65c-d72775bf5b3c
+- source: bradbury2010
+  type: scalar
+  value: 5.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 3d4b09d7-35d4-5dda-a8c2-3d19bea48a78
+- source: bradbury2010
+  type: scalar
+  value: 4.7
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3.
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 498600f4-35ab-5dcf-8bab-ce4b25e480dd
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 20.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: c3a3f39b-9d0b-50a2-83ea-ecb4fb67ebf7
+Ac:
+- source: bradbury2010
+  type: scalar
+  value: 2.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7924bcf3-4f85-51d1-be7d-e08f4fa199b2
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: a5eb8ea4-3385-52f9-9f59-26a6cbfed25c
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 9643107a-6e22-5a24-89ad-f4bf3ae6a823
+- source: bradbury2010
+  type: scalar
+  value: 5.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 745d7d5b-0556-5de8-9f83-9aed1cefd180
+- source: bradbury2010
+  type: scalar
+  value: 4.7
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 7c909150-ba00-568e-8675-a2f8e7c6152d
+Cm:
+- source: bradbury2010
+  type: scalar
+  value: 2.2
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argint groundwater 
+    composition with ionic strength I=0.23 mol/kg and pH=7.2. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 28da8f4d-a4ee-5713-b567-610c7c06df3d
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl6 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=6.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: fb92f42f-ffe4-5f06-82f7-3014cec75050
+- source: bradbury2010
+  type: scalar
+  value: 1.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh6 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=6.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: 96d0e498-d6fd-587a-a9bb-84689d363233
+- source: bradbury2010
+  type: scalar
+  value: 5.1
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argl9 groundwater 
+    composition with ionic strength I=0.13 mol/kg and pH=9.0. The oxidation 
+    state in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: b027ae96-c97d-5078-a0b1-11171a246405
+- source: bradbury2010
+  type: scalar
+  value: 4.7
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Generic calculated Rd for argillaceous rock by assuming illite as
+    the primary source data. The value is applied to Argh9 groundwater 
+    composition with ionic strength I=0.4 mol/kg and pH=9.0. The oxidation state
+    in Table 7.1 is +3
+  tag:
+    agency: [NAGRA]
+    location: [Switzerland]
+    simplified_lithology: [Mudstone]
+    ID: d4649648-b2b4-5b76-be35-fb91d4f7d871
+- source: suter1998 cited in keesmann2005
+  type: scalar
+  value: 20.0
+  value_min: null
+  value_max: null
+  value_std: null
+  probability_distribution:
+    sample_size: null
+    sampled_data: null
+  unit_str: m^3/kg
+  unit_base: [-1, 3, 0, 0, 0, 0, 0]
+  variable_name: null
+  variable_unit_str: null
+  variable_unit_base: null
+  description: Value used for silt and clay layers that inhibit or block water 
+    flow.
+  tag:
+    agency: [GRS]
+    location: [Gorleben, Lower-Saxony, Germany]
+    simplified_lithology: [Mudstone]
+    ID: d15f5f26-7905-567d-97ff-be06f0eb9771

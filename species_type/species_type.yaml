@@ -1,0 +1,290 @@
+Be-10:
+  source: rozmanov2005
+  species_type: mixed
+  element_category: alkaline_earth_metal
+  description: strong hydrolysis produces polymeric hydroxo species, with the free Be²⁺ aqua-ion persisting only at acidic pH.
+
+C-14:
+  source: hager2025
+  species_type: anion
+  element_category: nonmetal
+  description: Carbon-14 detected in the groundwater will likely be in the form of (bi)carbonate anions.
+
+Cl-36:
+  source: davis1998
+  species_type: anion
+  element_category: halogen
+  description: Chloride ions (monovalent anions) are the most common form of chlorine in the hydrosphere, and they exhibit extremely high mobility in aqueous systems.
+
+Ca-41:
+  source: barron2026
+  species_type: cation
+  element_category: alkaline_earth_metal
+  description: Calcium-41 follows classic alkaline-earth cation chemistry, forming
+    the divalent Ca2+ ion in aqueous environments.
+
+Ni-59:
+  source: iaea2009
+  species_type: cation
+  element_category: transition_metal
+  description: The predominant form of nickel is Ni2+.
+
+Ni-63:
+  source: iaea2009
+  species_type: cation
+  element_category: transition_metal
+  description: Same cation chemistry as Ni-59.
+
+Se-79:
+  source: iaea2009
+  species_type: anion
+  element_category: nonmetal
+  description: Under certain environmental pH and Eh conditions, selenium readily forms anions.
+
+Rb-87:
+  source: webelements
+  species_type: cation
+  element_category: alkali_metal
+  description: Rubidium is a group I alkali metal and forms the simple monovalent
+    Rb+ cation.
+
+Cs-135:
+  source: iaea2009
+  species_type: cation
+  element_category: alkali_metal
+  description: The free Cs+ is considered to be the dominant aqueous species in soil and aquatic systems.
+
+Cs-137:
+  source: iaea2009
+  species_type: cation
+  element_category: alkali_metal
+  description: Same alkali-metal cation chemistry as Cs-135.
+
+Sr-90:
+  source: iaea2009
+  species_type: cation
+  element_category: alkaline_earth_metal
+  description: The free divalent Sr2+ species is the dominant aqueous strontium species in natural waters over a broad pH range (2 to 9).
+
+Zr-93:
+  source: nea2020
+  species_type: mixed
+  element_category: transition_metal
+  description: Zirconium hydrolyzes strongly in water to form neutral hydroxide
+    species, but can also form anionic hydroxo-complexes at high pH.
+
+Nb-94:
+  source: iaea2009
+  species_type: cation
+  element_category: transition_metal
+  description: Nb is generally present in its +V oxidation state but it can also occur under the valence +II, +III and +IV.
+
+Mo-93:
+  source: adriano2001
+  species_type: anion
+  element_category: transition_metal
+  description: In aqueous systems, molybdenum exists primarily as a dissolved anion. In dilute solutions, the main form of soluble molybdenum is the molybdate anion.
+
+Tc-99:
+  source: radswiki2011
+  species_type: anion
+  element_category: transition_metal
+  description: The oxidation state of technetium in the pertechnetate anion is, 
+    among the chemical species of technetium, the most stable in aqueous solution.
+
+Pd-107:
+  source: sassani1990
+  species_type: mixed
+  element_category: transition_metal
+  description: Palladium can exist as the simple Pd2+ cation or as anionic
+    chloro-complexes (PdCl4 2-) depending on chloride concentration
+    in solution.
+
+Ag-108m:
+  source: iaea2009
+  species_type: cation
+  element_category: transition_metal
+  description: Element silver will likely be present in cationic forms.
+
+Sn-126:
+  source: iaea2009
+  species_type: cation
+  element_category: post-transition_metal
+  description: Element Sn will likely be present in cationic forms.
+
+I-129:
+  source: iaea2009
+  species_type: anion
+  element_category: halogen
+  description: Iodine-129 exists predominantly as the simple iodide anion.
+
+Sm-147:
+  source: ramirez-guinart2017
+  species_type: cation
+  element_category: lanthanide
+  description: Strontium (Sm) is similar to curium and americium in terms of chemical properties such as ionic radius, coordination number, and oxidation state.
+
+Sm-151:
+  source: ramirez-guinart2017
+  species_type: cation
+  element_category: lanthanide
+  description: Same trivalent lanthanide cation chemistry as Sm-147.
+
+Ho-166m:
+  source: hernandez-garcia2015
+  species_type: cation
+  element_category: lanthanide
+  description: Holmium is a trivalent lanthanide and forms the Ho3+ cation
+    in aqueous systems.
+
+Cm-248:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: The environmental form of curium is likely the III and/or IV valence forms. Only the +3 oxidation state is stable under normal environmental conditions.
+
+U-236:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: The most oxidized state of Uranium in nature is U+6, producing the cationic uranyl ion (UO2 2+) under oxidizing
+    conditions in aqueous environments.
+
+Pu-244:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Plutonium exists primarily in the +4 state under normal environmental conditions.
+
+Th-232:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Thorium shows +4 oxidation state in solution and forms the strongly hydrolyzing but
+    cationic Th4+ ion or its hydrolysis products.
+
+Pu-240:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same oxidation state plutonium chemistry as Pu-244.
+
+U-232:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same uranium chemistry as U-236, with cationic uranyl.
+
+Cm-245:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: Same trivalent curium cation chemistry as Cm-248.
+
+U-233:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same uranium chemistry as U-236, with cationic uranyl.
+
+Am-241:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: Americium is likely to occur in the environment as III and/or IV valence form. Only the +3 oxidation state is stable under normal environmental conditions.
+
+Th-229:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same tetravalent thorium cation chemistry as Th-232.
+
+Np-237:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Neptunium is dominated by the pentavalent neptunyl cation (NpO2+).
+
+Cm-246:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: Same trivalent curium cation chemistry as Cm-248.
+
+Pu-238:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same oxidation state plutonium chemistry as Pu-244.
+
+Pu-242:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same oxidation state plutonium chemistry as Pu-244.
+
+U-234:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same uranium chemistry as U-236, with cationic uranyl.
+
+U-238:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same uranium chemistry as U-236, with cationic uranyl.
+
+Th-230:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same tetravalent thorium cation chemistry as Th-232.
+
+Am-242m:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: Same americium cation chemistry as Am-241.
+
+Ra-226:
+  source: bai2023
+  species_type: cation
+  element_category: alkaline_earth_metal
+  description: It describes Ra2+ as the largest, redox stable +2 cation in the periodic table.
+
+Cm-247:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: Same trivalent curium cation chemistry as Cm-248.
+
+U-235:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same uranium chemistry as U-236, with cationic uranyl.
+
+Am-243:
+  source: iaea2009 and gunten1994
+  species_type: cation
+  element_category: actinide
+  description: Same americium cation chemistry as Am-241.
+
+Pa-231:
+  source: kirby1959
+  species_type: mixed
+  element_category: actinide
+  description: The normal oxidation state of protactinium is +5, but protactinium (V) probably does not exist in solution as a simple cation.
+
+Pu-239:
+  source: iaea2009
+  species_type: cation
+  element_category: actinide
+  description: Same oxidation state plutonium chemistry as Pu-244.
+
+Ac-227:
+  source: deblonde2024
+  species_type: cation
+  element_category: actinide
+  description: Actinium exhibits a +III oxidation state in solution under environmentally relevant conditions.
