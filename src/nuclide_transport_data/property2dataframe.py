@@ -1,11 +1,8 @@
 import os
-import yaml
-import pandas as pd
-import numpy as np
-
-
 from importlib.resources import files
-
+import numpy as np
+import pandas as pd
+import yaml
 from nuclide_transport_data.load_path import get_path_in_dir
 
 
@@ -42,7 +39,7 @@ def load_nuclide_property(yaml_property_paths):
         rock_type = os.path.splitext(os.path.basename(filepath))[0]
 
         # Load YAML file
-        with open(filepath, "r", encoding="utf-8") as f:
+        with open(filepath, encoding="utf-8") as f:
             yaml_data = yaml.safe_load(f)
 
         # Iterate over each top-level property
@@ -65,7 +62,7 @@ def load_nuclide_property(yaml_property_paths):
                             property_entry["location"] = tag_data.get("location")
 
                             property_entry["simplified_lithology"] = tag_data.get(
-                                "simplified_lithology"
+                                "simplified_lithology",
                             )
                         property_entry["ID"] = tag_data.get("ID")
                     else:
@@ -81,7 +78,7 @@ def load_nuclide_property(yaml_property_paths):
     ].map(preserve_value_type)
     # Keep the sample_size as integer
     property_df["sample_size"] = pd.to_numeric(
-        property_df["sample_size"], errors="coerce"
+        property_df["sample_size"], errors="coerce",
     ).astype("Int64")
     # Convert list to numpy array
     property_df["sampled_data"] = property_df["sampled_data"].map(
@@ -89,14 +86,14 @@ def load_nuclide_property(yaml_property_paths):
             np.array(sampled_data, dtype=np.float64)
             if isinstance(sampled_data, list)
             else sampled_data
-        )
+        ),
     )
     # Replace np.nan with None
     property_df = property_df.replace({np.nan: None})
     return property_df
 
 def load_nuclide_sorption_data():
-    """load collected sorption data.
+    """Load collected sorption data.
 
     Returns:
         pd.dataframe: panda dataframe contains all collected sorption data.
@@ -115,7 +112,7 @@ def load_nuclide_sorption_data():
         os.path.join(
             real_path,
             os.path.join(os.path.join(data_path, "sorption_coefficient", "default")),
-        )
+        ),
     )
     yaml_rock_property_paths = [
         path for path in yaml_property_paths if default_path not in path

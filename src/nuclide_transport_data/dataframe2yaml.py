@@ -19,17 +19,15 @@ def convert_to_flow_sequence(unit_base):
     Returns:
         List_flow_sequence: The flow sequence representation of the unit base.
     """
-
     # only convert python list
     if isinstance(unit_base, list):
         return List_flow_sequence(unit_base)
-    else:
-        return unit_base
+    return unit_base
 
 
 # Register flow style representer
 yaml.add_representer(
-    List_flow_sequence, flow_sequence_representer, Dumper=yaml.SafeDumper
+    List_flow_sequence, flow_sequence_representer, Dumper=yaml.SafeDumper,
 )
 # Write None as null
 yaml.add_representer(
@@ -47,7 +45,6 @@ def dataframe2yaml_str(property_df):
     Returns:
         str: The YAML string representation of the property dataframe.
     """
-
     yaml_dict = {}
     property_df_headers = list(property_df)
     property_df_headers.remove("nuclide")
@@ -85,14 +82,14 @@ def dataframe2yaml_str(property_df):
 
     # Convert dict to YAML
     yaml_str = yaml.dump(
-        yaml_dict, sort_keys=False, allow_unicode=True, Dumper=yaml.SafeDumper
+        yaml_dict, sort_keys=False, allow_unicode=True, Dumper=yaml.SafeDumper,
     )
 
     return yaml_str
 
 
 def export2yaml(property_df, output_file_path):
-    """export the property dataframe to a YAML file.
+    """Export the property dataframe to a YAML file.
 
     Args:
         property_df (pd.DataFrame): The input property dataframe.

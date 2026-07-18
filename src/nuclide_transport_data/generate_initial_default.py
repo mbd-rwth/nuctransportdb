@@ -1,18 +1,17 @@
 from pathlib import Path
-from nuclide_transport_data.merge_method import merge_property_value
 from nuclide_transport_data.dataframe2yaml import export2yaml
-from nuclide_transport_data.property2dataframe import load_nuclide_property
 from nuclide_transport_data.load_path import get_path_in_dir
+from nuclide_transport_data.merge_method import merge_property_value
+from nuclide_transport_data.property2dataframe import load_nuclide_property
+
 
 def generate_initial_default(property_dir, output_dir):
-    """
-    Generate the initial default data for nuclide properties
+    """Generate the initial default data for nuclide properties
 
     Args:
         property_dir (str): The path to the property directory.
         output_dir (str): The path to the output directory for saving YAML files.   
     """
-
     property_file_paths = get_path_in_dir(property_dir)
     yaml_property_paths = [
         fpath for fpath in property_file_paths if fpath.endswith(".yaml") and Path(fpath).parent.name != "default"
@@ -33,7 +32,7 @@ def generate_initial_default(property_dir, output_dir):
         input_df_for_merging = rock_df.drop_duplicates(subset=["ID"])
 
         merged_property_df = merge_property_value(
-            input_df_for_merging, source_type="default"
+            input_df_for_merging, source_type="default",
         )
         # Only maintainers can save the generated data to YAML files.
         save_to_file = True

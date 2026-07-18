@@ -1,11 +1,11 @@
-import scipy.stats as stats
+import os
+from importlib.resources import files
+from pathlib import Path
 import numpy as np
 import pandas as pd
-import os
-from pathlib import Path
-from nuclide_transport_data.property2dataframe import load_nuclide_property
+from scipy import stats
 from nuclide_transport_data.load_path import get_path_in_dir
-from importlib.resources import files
+from nuclide_transport_data.property2dataframe import load_nuclide_property
 
 
 def s_CV(df):
@@ -17,7 +17,6 @@ def s_CV(df):
     Returns:
         float: The coefficient of variation for the specified rock type.
     """
-
     # stacks all values into one long Series
     combined_df = pd.concat([df[c] for c in ("value", "value_min", "value_max") if c in df.columns], ignore_index=True)
     # dropping any missing values and convert are values to float type.
@@ -36,7 +35,6 @@ def rock_CV():
     Returns:
         dict: A dictionary containing the CV for each rock type.
     """
-
     # Get the coefficient of variation (CV) for each property
     data_path = files("nuclide_transport_data") / "dataset"
     property_path = os.path.join(data_path, "sorption_coefficient")

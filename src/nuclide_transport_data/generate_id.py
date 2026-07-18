@@ -1,6 +1,5 @@
 import uuid
 from ruamel.yaml import YAML
-import os
 from nuclide_transport_data.load_path import get_path_in_dir
 
 # Preserve quotes and save None to null in YAML
@@ -19,11 +18,11 @@ def ntd_namespace():
     Returns:
         uuid.UUID: The NTD namespace UUID.
     """
-    return uuid.UUID('8ccfaf36-e456-4966-99cb-71e6b7bcb040')
+    return uuid.UUID("8ccfaf36-e456-4966-99cb-71e6b7bcb040")
 
 
 def get_list_from_sequence(value):
-    """helper function to convert a string or None to a list.
+    """Helper function to convert a string or None to a list.
 
     Args:
         value (str, None, list): the input value to convert.
@@ -34,15 +33,13 @@ def get_list_from_sequence(value):
     Returns:
         list : the converted list.
     """
-
     if isinstance(value, str):
         return [value]
-    elif value is None:
+    if value is None:
         return []
-    elif isinstance(value, list):
+    if isinstance(value, list):
         return value
-    else:
-        raise ValueError("Input value must be a string, None, or a list.")
+    raise ValueError("Input value must be a string, None, or a list.")
 
 
 def normalize_str(val):
@@ -73,7 +70,6 @@ def flatten_entry_dict(property_entry, nuclide_name):
     Returns:
         dict: The flattened entry dictionary.
     """
-
     if property_entry.get("probability_distribution"):
         pdf_info = property_entry.get("probability_distribution")
     else:
@@ -82,7 +78,7 @@ def flatten_entry_dict(property_entry, nuclide_name):
         tag_info = property_entry.get("tag")
     else:
         tag_info = property_entry
-    
+
     flatten_dict = {
         "nuclide": nuclide_name,
         "type": property_entry.get("type"),
@@ -122,7 +118,6 @@ def get_entry_str(property_entry, nuclide_name):
     Returns:
         str: The combined entry string.
     """
-
     flatten_entry = flatten_entry_dict(property_entry, nuclide_name)
     combined_entry_str = ", ".join(
         normalize_str(str(entry_str)) for entry_str in flatten_entry.values()
@@ -136,10 +131,9 @@ def generate_property_id(yaml_file_path):
     Args:
         yaml_file_path (str): The path to the YAML file.
     """
-
     NTD_NAMESPACE = ntd_namespace()
 
-    with open(yaml_file_path, "r", encoding="utf-8") as f:
+    with open(yaml_file_path, encoding="utf-8") as f:
         data = yaml.load(f)
 
     missing_ID = False
@@ -153,8 +147,8 @@ def generate_property_id(yaml_file_path):
                     missing_ID = True
                     property_entry["tag"]["ID"] = str(
                         uuid.uuid5(
-                            NTD_NAMESPACE, get_entry_str(property_entry, property_name)
-                        )
+                            NTD_NAMESPACE, get_entry_str(property_entry, property_name),
+                        ),
                     )
     # Save the updated YAML back
     if missing_ID:
@@ -168,7 +162,6 @@ def generate_id_for_all(property_dir):
     Args:
         property_dir (str): The path to the property directory.
     """
-
     # load YAML file paths from the property directory
 
     property_file_paths = get_path_in_dir(property_dir)

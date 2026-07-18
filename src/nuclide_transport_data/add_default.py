@@ -1,18 +1,17 @@
 import os
-import pandas as pd
-import numpy as np
-from pathlib import Path
 import uuid
 from importlib.resources import files
-
-from nuclide_transport_data.property2dataframe import load_nuclide_property
+from pathlib import Path
+import numpy as np
+import pandas as pd
+from nuclide_transport_data.generate_id import get_entry_str
 from nuclide_transport_data.generate_id import ntd_namespace
 from nuclide_transport_data.load_path import get_path_in_dir
-from nuclide_transport_data.generate_id import get_entry_str
+from nuclide_transport_data.property2dataframe import load_nuclide_property
+
 
 def get_all_default_rock_types():
-    """
-    Get all available default rock types.
+    """Get all available default rock types.
 
     Returns:
         list: a list of default rock names.
@@ -56,13 +55,12 @@ def create_empty_sorption_pd():
     Returns:
         pd.DataFrame: Empty dataframe with defined columns
     """
-
     columns = [
     "nuclide_property", "rock_type", "nuclide", "source", "type",
     "value", "value_min", "value_max", "value_std", "sample_size",
     "sampled_data", "unit_str", "unit_base", "variable_name",
     "variable_unit_str", "variable_unit_base", "description",
-    "agency", "location", "simplified_lithology", "ID"
+    "agency", "location", "simplified_lithology", "ID",
     ]
     return pd.DataFrame(columns=columns)
 
@@ -76,7 +74,6 @@ def get_matching_default_df(nuclide, missing_rock_names):
     Returns:
         pd.DataFrame: DataFrame containing the matching default properties
     """
-
     if missing_rock_names == []:
         return create_empty_sorption_pd()
 
@@ -96,7 +93,6 @@ def find_missing_properties(property_df, lithologies):
     Returns:
         list: List of missing property names.
     """
-
     required_rock_names = set(lithologies)
 
     if property_df.empty:
@@ -115,8 +111,7 @@ def find_missing_properties(property_df, lithologies):
     return missing_props
 
 def add_default_conservative_values(nuclide, props_to_load):
-    """
-    Function to add conservative estimates when no default data is available.
+    """Function to add conservative estimates when no default data is available.
 
     Args:
         nuclide (str): nuclide to search for.
@@ -131,7 +126,7 @@ def add_default_conservative_values(nuclide, props_to_load):
 
 
     for rock_type in props_to_load:
-        row = {col: None for col in add_missing_default_nuclide_df.columns}
+        row = dict.fromkeys(add_missing_default_nuclide_df.columns)
         overwrite_row = {
         "nuclide_property": "default",
         "rock_type": rock_type,
@@ -146,8 +141,8 @@ def add_default_conservative_values(nuclide, props_to_load):
         }
         overwrite_row["ID"] = str(
                 uuid.uuid5(
-                    NTD_NAMESPACE, get_entry_str(row, nuclide)
-                )
+                    NTD_NAMESPACE, get_entry_str(row, nuclide),
+                ),
             )
         row.update(overwrite_row)
         add_missing_default_nuclide_df.loc[len(add_missing_default_nuclide_df)] = row
@@ -165,7 +160,6 @@ def add_default_df(property_df, lithologies, nuclide):
     Returns:
         pd.DataFrame: DataFrame with default properties added
     """
-
     all_default_rocks = get_all_default_rock_types()
     if property_df.empty:
         missing_rock_in_default = [rock for rock in lithologies if rock in all_default_rocks]
