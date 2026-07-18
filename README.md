@@ -1,7 +1,5 @@
 ## Badges
 
-(Customize these badges with your own links, and check https://shields.io/ or https://badgen.net/ to see which other badges are available.)
-
 | fair-software.eu recommendations | |
 | :-- | :--  |
 | (1/5) code repository              | [![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/CQ-QianChen/nuclide_transport_data) |
@@ -16,8 +14,6 @@
 | Citation data consistency          | [![cffconvert](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/cffconvert.yml) |## How to use nuclide_transport_data
 
 A simulation-ready database for radionuclide transport simulations, providing emitted energy data for a selected set of nuclides, sorption coefficient cross rock types, and chemical-species data.
-
-The project setup is documented in [project_setup.md](project_setup.md). Feel free to remove this document (and/or the link to this document) if you don't need it.
 
 ## Installation
 
@@ -39,5 +35,4 @@ If you want to contribute to the development of nuclide_transport_data,
 have a look at the [contribution guidelines](CONTRIBUTING.md).
 
 ## Credits
-
-This package was created with [Copier](https://github.com/copier-org/copier) and the [NLeSC/python-template](https://github.com/NLeSC/python-template).
+The authors of this project is [@CQ-QianChen](https://github.com/CQ-QianChen).
