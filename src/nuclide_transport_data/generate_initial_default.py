@@ -5,12 +5,12 @@ from nuclide_transport_data.merge_method import merge_property_value
 from nuclide_transport_data.property2dataframe import load_nuclide_property
 
 
-def generate_initial_default(property_dir, output_dir):
-    """Generate the initial default data for nuclide properties
+def generate_initial_default(property_dir, output_dir) -> None:
+    """Generate the initial default data for nuclide properties.
 
     Args:
         property_dir (str): The path to the property directory.
-        output_dir (str): The path to the output directory for saving YAML files.   
+        output_dir (str): The path to the output directory for saving YAML files.
     """
     property_file_paths = get_path_in_dir(property_dir)
     yaml_property_paths = [

@@ -46,8 +46,7 @@ def load_default_sorption_df(lithologies):
         )
         for lithology in lithologies
     ]
-    default_df = load_nuclide_property(add_default_yaml_list)
-    return default_df
+    return load_nuclide_property(add_default_yaml_list)
 
 def create_empty_sorption_pd():
     """Function for creating an empty sorption dataframe.
@@ -105,10 +104,9 @@ def find_missing_properties(property_df, lithologies):
 
     # find the missing properties
 
-    all_rocks = list(set(item for sublist in list(removed_missing_id_property_df["simplified_lithology"]) for item in sublist))
+    all_rocks = list({item for sublist in list(removed_missing_id_property_df["simplified_lithology"]) for item in sublist})
 
-    missing_props = list(required_rock_names - set(all_rocks))
-    return missing_props
+    return list(required_rock_names - set(all_rocks))
 
 def add_default_conservative_values(nuclide, props_to_load):
     """Function to add conservative estimates when no default data is available.
@@ -164,7 +162,7 @@ def add_default_df(property_df, lithologies, nuclide):
     if property_df.empty:
         missing_rock_in_default = [rock for rock in lithologies if rock in all_default_rocks]
         matching_default_nuclide_df = get_matching_default_df(nuclide, missing_rock_in_default)
-        missing_prop_after_matching_default = list(set(lithologies)  - set(list(matching_default_nuclide_df["rock_type"].unique())))
+        missing_prop_after_matching_default = list(set(lithologies)  - set(matching_default_nuclide_df["rock_type"].unique()))
         add_missing_default_nuclide_df = create_empty_sorption_pd()
         if len(missing_prop_after_matching_default)>0:
             add_missing_default_nuclide_df = add_default_conservative_values(nuclide, missing_prop_after_matching_default)
@@ -195,7 +193,7 @@ def add_default_df(property_df, lithologies, nuclide):
         missing_prop_after_matching_default = missing_prop_names.copy()
     else: # load defaults for missing_rock_in_default
         matching_default_nuclide_df = get_matching_default_df(nuclide, missing_rock_in_default)
-        missing_prop_after_matching_default = list(set(missing_prop_names)  - set(list(matching_default_nuclide_df["rock_type"].unique())))
+        missing_prop_after_matching_default = list(set(missing_prop_names)  - set(matching_default_nuclide_df["rock_type"].unique()))
 
     add_missing_default_nuclide_df = create_empty_sorption_pd()
 
@@ -217,6 +215,5 @@ def add_default_df(property_df, lithologies, nuclide):
         ignore_index=True,
     )
     # Replace np.nan with None
-    add_default_property_df = add_default_property_df.replace({np.nan: None, "": None})
+    return add_default_property_df.replace({np.nan: None, "": None})
 
-    return add_default_property_df

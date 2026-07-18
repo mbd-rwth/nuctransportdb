@@ -89,8 +89,7 @@ def load_nuclide_property(yaml_property_paths):
         ),
     )
     # Replace np.nan with None
-    property_df = property_df.replace({np.nan: None})
-    return property_df
+    return property_df.replace({np.nan: None})
 
 def load_nuclide_sorption_data():
     """Load collected sorption data.
@@ -117,5 +116,4 @@ def load_nuclide_sorption_data():
     yaml_rock_property_paths = [
         path for path in yaml_property_paths if default_path not in path
     ]
-    rock_sorption_coefficient = load_nuclide_property(yaml_rock_property_paths)
-    return rock_sorption_coefficient
+    return load_nuclide_property(yaml_rock_property_paths)

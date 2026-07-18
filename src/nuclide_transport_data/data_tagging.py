@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def string_in_strings(target, strings):
+def string_in_strings(target, strings) -> bool:
     """Check if 'target' exists in 'strings'.
 
     Args:
@@ -14,9 +14,7 @@ def string_in_strings(target, strings):
     if strings is None:
         return False
     if isinstance(strings, str):
-        if target in strings:
-            return True
-        return False
+        return target in strings
     if isinstance(
         strings, list,
     ):  # for columns "simplified_lithology", "location", "agency", "unit_base",or "variable_unit_base"
@@ -67,5 +65,4 @@ def filter_tagged_data(property_df, tag_dict):
     for key, value in tag_dict.items():
         tag_type_mask = get_tagged_data_mask(property_df, key, value)
         tag_type_masks &= tag_type_mask
-    property_df = property_df[tag_type_masks]
-    return property_df
+    return property_df[tag_type_masks]

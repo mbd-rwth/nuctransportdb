@@ -1,10 +1,15 @@
+import uuid
 import numpy as np
 import pandas as pd
-import uuid
 from scipy import stats
-from scipy.stats import norm, truncnorm, lognorm, beta, uniform
+from scipy.stats import beta
+from scipy.stats import lognorm
+from scipy.stats import norm
+from scipy.stats import truncnorm
+from scipy.stats import uniform
+from nuclide_transport_data.generate_id import get_entry_str
+from nuclide_transport_data.generate_id import ntd_namespace
 from nuclide_transport_data.property2dataframe import preserve_value_type
-from nuclide_transport_data.generate_id import ntd_namespace, get_entry_str
 from nuclide_transport_data.recommended_CV import rock_CV
 
 
@@ -18,7 +23,7 @@ def value_empty_mask(input_pd_df):
     Returns:
         pd.Series: A Boolean series indicating which data is empty.
     """
-    is_empty_mask = (
+    return (
         input_pd_df["value"].isna()
         & input_pd_df["value_std"].isna()
         & input_pd_df["value_min"].isna()
@@ -26,7 +31,6 @@ def value_empty_mask(input_pd_df):
         & input_pd_df["sampled_data"].isna()
     )
 
-    return is_empty_mask
 
 
 def value_invalid_mask(input_pd_df):
@@ -82,9 +86,8 @@ def value_invalid_mask(input_pd_df):
         | (has_min & has_max & (value_min > value_max))  # value_min > value_max
     )
 
-    is_invalid_mask = invalid_mask_1 | invalid_mask_2 | invalid_mask_3 | mask
+    return invalid_mask_1 | invalid_mask_2 | invalid_mask_3 | mask
 
-    return is_invalid_mask
 
 
 def value_pdf_mask(input_pd_df):
@@ -416,16 +419,13 @@ def generate_samples(
         input_df_group["value"],
         input_df_group["value_std"],
         input_df_group["value_min"],
-        input_df_group["value_max"],
+        input_df_group["value_max"], strict=False,
     ):
         if sample_size is None or np.isnan(sample_size):
             sample_size = 1000000
         if df_pdf_type == "is_pdf_df":
             # if the scipy.stats.rvs or numpy array is provided
-            if isinstance(sampled_data, str):
-                samples = eval(sampled_data)
-            else:
-                samples = np.array(sampled_data)
+            samples = eval(sampled_data) if isinstance(sampled_data, str) else np.array(sampled_data)
         elif df_pdf_type == "is_uniform_df":
             uniform_samples = generate_uniform(value_min, value_max).rvs(
                 size=sample_size, random_state=random_state,
@@ -456,7 +456,8 @@ def generate_samples(
             )
             samples = PERT_samples
         else:
-            raise ValueError(f"The df_pdf_type {df_pdf_type} is not recognized!")
+            msg = f"The df_pdf_type {df_pdf_type} is not recognized!"
+            raise ValueError(msg)
 
 
         # Remove negative samples
@@ -549,7 +550,8 @@ def generate_unit(property_name):
         unit_str = "m^3/kg"
         unit_base = [-1, 3, 0, 0, 0, 0, 0]
     else:
-        raise TypeError(f"The property name {property_name} is not recognized!")
+        msg = f"The property name {property_name} is not recognized!"
+        raise TypeError(msg)
 
     return unit_str, unit_base
 
@@ -674,10 +676,7 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
             # Get meta information
             ids_list = list(input_nuclide_group["ID"])
             ids_combined = ",".join(ids_list)
-            if len(ids_list) > 1:
-                print_before_id = "combined datasets with ids:"
-            else:
-                print_before_id = "dataset with id:"
+            print_before_id = "combined datasets with ids:" if len(ids_list) > 1 else "dataset with id:"
 
             number_of_datasets = input_nuclide_group.shape[0]
 
@@ -702,7 +701,7 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
                 "simplified_lithology": None,
                 "ID": None,
             }
-            if (source_type == "default") or (source_type == "merged"):
+            if source_type in {"default", "merged"}:
 
                 property_dict["description"] = (
                     f"{description_dist} fitted from {number_of_datasets} {print_before_id} {ids_combined}."
@@ -714,8 +713,9 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
                     ),
                 )
             else:
+                msg = f"The allowed source_type entries are 'default' and 'merged'. The source_type '{source_type}' is not recognized!"
                 raise ValueError(
-                    f"The allowed source_type entries are 'default' and 'merged'. The source_type '{source_type}' is not recognized!",
+                    msg,
                 )
 
             # Create a new row with the merged property values
@@ -758,6 +758,5 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
 
     # Drop only the empty columns that are not required
     cols_to_drop = [col for col in empty_columns if col not in minimum_required_columns]
-    merged_property = merged_property.drop(columns=cols_to_drop)
+    return merged_property.drop(columns=cols_to_drop)
 
-    return merged_property

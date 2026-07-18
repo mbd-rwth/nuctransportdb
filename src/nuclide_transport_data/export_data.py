@@ -16,19 +16,17 @@ def load_all_emitted_energy():
     data_path = files("nuclide_transport_data") / "dataset"
     path_to_yaml = os.path.join(data_path, "emitted_energy", "emitted_energy.yaml")
     with open(path_to_yaml, encoding="utf-8") as f:
-        yaml_config = yaml.safe_load(f)
+        return yaml.safe_load(f)
 
-    return yaml_config
 
 def load_all_species_type_data():
     data_path = files("nuclide_transport_data") / "dataset"
     path_to_yaml = os.path.join(data_path,"species_type", "species_type.yaml")
     with open(path_to_yaml, encoding="utf-8") as f:
-        yaml_config = yaml.safe_load(f)
+        return yaml.safe_load(f)
 
-    return yaml_config
 
-def export_species_data(input_config):
+def export_species_data(input_config) -> None:
     all_species_type_data = load_all_species_type_data()
     nuclides_list = input_config["nuclide_to_consider"]
 
@@ -68,7 +66,7 @@ def export_species_data(input_config):
     with open(os.path.join(path_to_save_nuclide_species_data, "diffusion_group.yaml"), "w") as f:
         yaml.safe_dump(diffusion_group, f, sort_keys=False)
 
-def export_nuclide_emitted_energy(input_config):
+def export_nuclide_emitted_energy(input_config) -> None:
     all_emitted_energy = load_all_emitted_energy()
     nuclides_list = input_config["nuclide_to_consider"]
     nuclide_emitted_energy = {}
@@ -101,7 +99,7 @@ def export_nuclide_emitted_energy(input_config):
         yaml.safe_dump(nuclide_emitted_energy, f, sort_keys=False)
 
 
-def export_sorption_data_for_site(input_config):
+def export_sorption_data_for_site(input_config) -> None:
     with open(input_config["input_site_yaml_path"], encoding="utf-8") as f:
         yaml_config = yaml.safe_load(f)
     yaml_config.pop("name", None)

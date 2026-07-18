@@ -39,7 +39,8 @@ def get_list_from_sequence(value):
         return []
     if isinstance(value, list):
         return value
-    raise ValueError("Input value must be a string, None, or a list.")
+    msg = "Input value must be a string, None, or a list."
+    raise ValueError(msg)
 
 
 def normalize_str(val):
@@ -74,12 +75,9 @@ def flatten_entry_dict(property_entry, nuclide_name):
         pdf_info = property_entry.get("probability_distribution")
     else:
         pdf_info = property_entry
-    if property_entry.get("tag"):
-        tag_info = property_entry.get("tag")
-    else:
-        tag_info = property_entry
+    tag_info = property_entry.get("tag") or property_entry
 
-    flatten_dict = {
+    return {
         "nuclide": nuclide_name,
         "type": property_entry.get("type"),
         "source": property_entry.get("source"),
@@ -105,7 +103,6 @@ def flatten_entry_dict(property_entry, nuclide_name):
         ),
     }
 
-    return flatten_dict
 
 
 def get_entry_str(property_entry, nuclide_name):
@@ -119,13 +116,12 @@ def get_entry_str(property_entry, nuclide_name):
         str: The combined entry string.
     """
     flatten_entry = flatten_entry_dict(property_entry, nuclide_name)
-    combined_entry_str = ", ".join(
+    return ", ".join(
         normalize_str(str(entry_str)) for entry_str in flatten_entry.values()
     )
-    return combined_entry_str
 
 
-def generate_property_id(yaml_file_path):
+def generate_property_id(yaml_file_path) -> None:
     """Check for missing ID and generate a unique ID for each data in the YAML file.
 
     Args:
@@ -156,7 +152,7 @@ def generate_property_id(yaml_file_path):
             yaml.dump(data, f)
 
 
-def generate_id_for_all(property_dir):
+def generate_id_for_all(property_dir) -> None:
     """Generate IDs for all YAML files in the property directory.
 
     Args:
