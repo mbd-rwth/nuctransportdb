@@ -1,12 +1,9 @@
-import os
 import numpy as np
 import pandas as pd
-from pathlib import Path
 import uuid
 import scipy
 import scipy.stats as stats
 from scipy.stats import norm, truncnorm, lognorm, beta, uniform
-from nuclide_transport_data.load_path import get_path_in_dir
 from nuclide_transport_data.property2dataframe import preserve_value_type
 from nuclide_transport_data.generate_id import ntd_namespace, get_entry_str
 from nuclide_transport_data.recommended_CV import rock_CV
@@ -294,7 +291,7 @@ def generate_truncnorm(value, value_std, value_min, value_max, as_string=False, 
     b = (value_max - value) / value_std
     if as_string:
         return f"scipy.stats.truncnorm({format_number_adaptive(a)}, {format_number_adaptive(b)}, loc={format_number_adaptive(value)}, scale={format_number_adaptive(value_std)})"
-    
+
     return truncnorm(a, b, loc=value, scale=value_std)
 
 
@@ -387,12 +384,6 @@ def generate_norm(value, value_std, as_string=False, **kwargs):
 
     return norm(loc=norm_mean, scale=norm_std)
 
-# Get the coefficient of variation (CV) for each property
-# property_path = os.path.join(Path(__file__).resolve().parent.parent.parent, "sorption_coefficient")
-# property_file_paths = get_path_in_dir(property_path)
-# yaml_property_paths = [
-#     fpath for fpath in property_file_paths if fpath.endswith(".yaml") and Path(fpath).parent.name != "default"
-# ]
 dict_sorption_rock_cv = rock_CV()
 
 
@@ -457,7 +448,7 @@ def generate_samples(
             if pd.isna(value_std): # check both None and NaN
                 if nuclide_rock_property == "sorption_coefficient":
                     value_std = value * dict_sorption_rock_cv[rock_type]
-            
+
             if value == 0.0 and value_std == 0.0:
                 lognorm_samples = np.zeros(sample_size)
             else:
@@ -474,7 +465,7 @@ def generate_samples(
         else:
             raise ValueError(f"The df_pdf_type {df_pdf_type} is not recognized!")
 
-        
+
         # Remove negative samples
         samples = samples[samples >= 0]
 
@@ -638,7 +629,7 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
     for nuclide_group_keys, input_nuclide_group in input_nuclide_grouped:
         is_pdf_mask = value_pdf_mask(input_nuclide_group)
         is_pdf_df = input_nuclide_group[is_pdf_mask].copy()
-        
+
         # If only one dataset is provided by a probability distribution, then the merge process is unnecessary
         if (input_nuclide_group.shape[0] == 1) and (not is_pdf_df.empty):
 
@@ -663,18 +654,18 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
             sample_statistics_config = {"value": samples_mean, "value_std": samples_std, "value_min": samples_min, "value_max": samples_max}
             nuclide_name = nuclide_group_keys[0]
             nuclide_rock_property = input_nuclide_group["nuclide_property"].iloc[0]
-            
-            
+
+
             # if all values are identical, then no sampling is needed
             if samples_std == 0.0:
                 samples_min, samples_max, sampling_rvs = None, None, None
                 description_dist = "All values are identical. All samples are"
-                
+
             else:
-        
+
                 if (sampling_functions_by_property) and (nuclide_name in sampling_functions_by_property):
                     # use desired sampling functions
-                    
+
                     sampling_function = sampling_functions_by_property[nuclide_name]
                     sampling_rvs = sampling_function(as_string=True,**sample_statistics_config) + f".rvs(size={sample_size}, random_state=21)"
                     # get distribution description according to the sampling function
@@ -688,7 +679,7 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
                     sampling_rvs = generate_lognorm(as_string=True,**sample_statistics_config) + f".rvs(size={sample_size}, random_state=21)"
                     # get distribution description for log normal distribution
                     description_dist = distribution_descriptions[generate_lognorm]
-            
+
             # Get meta information
             ids_list = list(input_nuclide_group["ID"])
             ids_combined = ",".join(ids_list)
@@ -721,7 +712,7 @@ def merge_property_value(input_property, sample_size=1000000, source_type="merge
                 "ID": None,
             }
             if (source_type == "default") or (source_type == "merged"):
-        
+
                 property_dict["description"] = (
                     f"{description_dist} fitted from {number_of_datasets} {print_before_id} {ids_combined}."
                 )

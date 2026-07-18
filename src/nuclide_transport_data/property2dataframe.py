@@ -3,7 +3,8 @@ import yaml
 import pandas as pd
 import numpy as np
 
-from pathlib import Path
+
+from importlib.resources import files
 
 from nuclide_transport_data.load_path import get_path_in_dir
 
@@ -101,20 +102,19 @@ def load_nuclide_sorption_data():
         pd.dataframe: panda dataframe contains all collected sorption data.
     """
     # load YAML file paths from the rock_property directory
-    property_path = os.path.join(Path(__file__).resolve().parent.parent.parent, "sorption_coefficient")
+    data_path = files("nuclide_transport_data") / "dataset"
+    property_path = os.path.join(data_path, "sorption_coefficient")
     property_file_paths = get_path_in_dir(property_path)
     yaml_property_paths = [
         path for path in property_file_paths if path.endswith(".yaml")
     ]
-    
-    rock_sorption_coefficient = load_nuclide_property(yaml_property_paths)
 
     # remove the YAML file paths in default directory
     real_path = os.path.realpath(os.path.dirname(__file__))
     default_path = os.path.realpath(
         os.path.join(
             real_path,
-            os.path.join(os.path.join(Path(__file__).resolve().parent.parent.parent, "sorption_coefficient", "default")),
+            os.path.join(os.path.join(data_path, "sorption_coefficient", "default")),
         )
     )
     yaml_rock_property_paths = [

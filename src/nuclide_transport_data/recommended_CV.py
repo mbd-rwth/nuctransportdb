@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 from nuclide_transport_data.property2dataframe import load_nuclide_property
 from nuclide_transport_data.load_path import get_path_in_dir
+from importlib.resources import files
 
 
 def s_CV(df):
@@ -16,7 +17,7 @@ def s_CV(df):
     Returns:
         float: The coefficient of variation for the specified rock type.
     """
-    
+
     # stacks all values into one long Series
     combined_df = pd.concat([df[c] for c in ("value", "value_min", "value_max") if c in df.columns], ignore_index=True)
     # dropping any missing values and convert are values to float type.
@@ -35,9 +36,10 @@ def rock_CV():
     Returns:
         dict: A dictionary containing the CV for each rock type.
     """
-    
+
     # Get the coefficient of variation (CV) for each property
-    property_path = os.path.join(Path(__file__).resolve().parent.parent.parent, "sorption_coefficient")
+    data_path = files("nuclide_transport_data") / "dataset"
+    property_path = os.path.join(data_path, "sorption_coefficient")
     property_file_paths = get_path_in_dir(property_path)
     yaml_property_paths = [
         fpath for fpath in property_file_paths if fpath.endswith(".yaml") and Path(fpath).parent.name != "default"
@@ -51,7 +53,7 @@ def rock_CV():
     rock_unqiue_lithologies = (merged_df["simplified_lithology"].explode().unique().tolist())
     dict_rock_cv = {}
 
-    # calculate the CV for simplified lithology 
+    # calculate the CV for simplified lithology
     for rock in rock_unqiue_lithologies:
         rock_mask = merged_df["simplified_lithology"].apply(lambda x: rock in x)
         rock_df = merged_df[rock_mask].copy()

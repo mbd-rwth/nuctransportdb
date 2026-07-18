@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import uuid
+from importlib.resources import files
 
 from nuclide_transport_data.property2dataframe import load_nuclide_property
 from nuclide_transport_data.generate_id import ntd_namespace
@@ -16,7 +17,8 @@ def get_all_default_rock_types():
     Returns:
         list: a list of default rock names.
     """
-    default_property_path = os.path.join(Path(__file__).resolve().parent.parent.parent, "sorption_coefficient", "default")
+    data_path = files("nuclide_transport_data") / "dataset"
+    default_property_path = os.path.join(data_path, "sorption_coefficient", "default")
     default_property_file_paths = get_path_in_dir(default_property_path)
     default_yaml_property_paths = [
         path for path in default_property_file_paths if path.endswith(".yaml")
@@ -28,14 +30,17 @@ def load_default_sorption_df(lithologies):
 
     Args:
         lithologies (list): list of lithologies.
-    
+
     Returns:
         pd.DataFrame: Default rock property DataFrame.
     """
     # load default rock property from yaml files
+
+    data_path = files("nuclide_transport_data") / "dataset"
     add_default_yaml_list = [
+
         os.path.join(
-            Path(__file__).resolve().parent.parent.parent,
+            data_path,
             "sorption_coefficient",
             "default",
             f"{lithology}.yaml",
@@ -103,9 +108,9 @@ def find_missing_properties(property_df, lithologies):
     ]
 
     # find the missing properties
-    
+
     all_rocks = list(set(item for sublist in list(removed_missing_id_property_df["simplified_lithology"]) for item in sublist))
-    
+
     missing_props = list(required_rock_names - set(all_rocks))
     return missing_props
 
@@ -123,8 +128,8 @@ def add_default_conservative_values(nuclide, props_to_load):
     NTD_NAMESPACE = ntd_namespace()
 
     add_missing_default_nuclide_df = create_empty_sorption_pd()
-    
-   
+
+
     for rock_type in props_to_load:
         row = {col: None for col in add_missing_default_nuclide_df.columns}
         overwrite_row = {
@@ -146,7 +151,7 @@ def add_default_conservative_values(nuclide, props_to_load):
             )
         row.update(overwrite_row)
         add_missing_default_nuclide_df.loc[len(add_missing_default_nuclide_df)] = row
-    
+
     return add_missing_default_nuclide_df
 
 def add_default_df(property_df, lithologies, nuclide):
@@ -169,7 +174,7 @@ def add_default_df(property_df, lithologies, nuclide):
         add_missing_default_nuclide_df = create_empty_sorption_pd()
         if len(missing_prop_after_matching_default)>0:
             add_missing_default_nuclide_df = add_default_conservative_values(nuclide, missing_prop_after_matching_default)
-        
+
         return pd.concat(
         [
             df
@@ -201,14 +206,14 @@ def add_default_df(property_df, lithologies, nuclide):
     add_missing_default_nuclide_df = create_empty_sorption_pd()
 
 
-    # default dataframe is empty: 1. there is no missing data, missing_prop_names is an empty list or 2. we cannot find the data 
+    # default dataframe is empty: 1. there is no missing data, missing_prop_names is an empty list or 2. we cannot find the data
     # default dataframe is not empty, but we still have some data missing for some rocks.
     if ((matching_default_nuclide_df.empty) and (len(missing_prop_names)>0)) or (len(missing_prop_after_matching_default)>0):
 
         # only load the missing props after adding available defaults
         props_to_load = missing_prop_after_matching_default.copy() if len(missing_prop_after_matching_default) > 0 else missing_prop_names.copy()
         add_missing_default_nuclide_df = add_default_conservative_values(nuclide, props_to_load)
-        
+
     add_default_property_df = pd.concat(
         [
             df

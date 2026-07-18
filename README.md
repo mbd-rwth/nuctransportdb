@@ -27,7 +27,7 @@ python -m pip install .
 
 ## Documentation
 
-Include a link to your project's full documentation here.
+[see our readthedocs](https://nuclide-transport-data.readthedocs.io/en/latest/)
 
 ## Contributing
 

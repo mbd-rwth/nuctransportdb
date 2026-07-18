@@ -11,18 +11,21 @@ import os
 import numpy as np
 import astropy.units as u
 from pathlib import Path
+from importlib.resources import files
 
 
 
 def load_all_emitted_energy():
-    path_to_yaml = os.path.join(Path(__file__).resolve().parent.parent.parent,"emitted_energy", "emitted_energy.yaml")
+    data_path = files("nuclide_transport_data") / "dataset"
+    path_to_yaml = os.path.join(data_path, "emitted_energy", "emitted_energy.yaml")
     with open(path_to_yaml, "r", encoding="utf-8") as f:
         yaml_config = yaml.safe_load(f)
 
     return yaml_config
 
 def load_all_species_type_data():
-    path_to_yaml = os.path.join(Path(__file__).resolve().parent.parent.parent,"species_type", "species_type.yaml")
+    data_path = files("nuclide_transport_data") / "dataset"
+    path_to_yaml = os.path.join(data_path,"species_type", "species_type.yaml")
     with open(path_to_yaml, "r", encoding="utf-8") as f:
         yaml_config = yaml.safe_load(f)
 
@@ -64,7 +67,7 @@ def export_species_data(input_config):
 
     with open(os.path.join(path_to_save_nuclide_species_data, "species_type.yaml"), "w") as f:
         yaml.safe_dump(species_type, f, sort_keys=False)
-    
+
     with open(os.path.join(path_to_save_nuclide_species_data, "diffusion_group.yaml"), "w") as f:
         yaml.safe_dump(diffusion_group, f, sort_keys=False)
 
@@ -91,15 +94,15 @@ def export_nuclide_emitted_energy(input_config):
                                             "total": float((info["total"] * u.MeV).to(u.J).value),
                                             "unit_str": "kg*m^3/s^2",
                                             "unit_base": convert_to_flow_sequence([1, 2, -2, 0, 0, 0, 0])}
-            
-    
+
+
     path_to_save_nuclide_emitted_energy_data = input_config["path_to_save_nuclide_emitted_energy_data"]
     if not os.path.exists(path_to_save_nuclide_emitted_energy_data):
         os.makedirs(path_to_save_nuclide_emitted_energy_data)
-        
+
     with open(os.path.join(path_to_save_nuclide_emitted_energy_data, "emitted_energy.yaml"), "w") as f:
         yaml.safe_dump(nuclide_emitted_energy, f, sort_keys=False)
-    
+
 
 def export_sorption_data_for_site(input_config):
     with open(input_config["input_site_yaml_path"], "r", encoding="utf-8") as f:
@@ -110,9 +113,9 @@ def export_sorption_data_for_site(input_config):
     nuclides_list = input_config["nuclide_to_consider"]
 
     for rock_unit, rock_infos in yaml_config.items():
-    
+
         tag_dict = {"simplified_lithology": rock_infos['simplified_lithology']}
-        
+
         mdfnsds = []
         for nuclide in nuclides_list:
             element = nuclide.partition("-")[0]
