@@ -3,7 +3,6 @@ import os
 import sys
 from importlib.resources import files
 from pathlib import Path
-import astropy.units as u
 import numpy as np
 import pandas as pd
 import yaml
@@ -83,12 +82,12 @@ def export_nuclide_emitted_energy(input_config) -> None:
                                                 "unit_str": "kg*m^3/s^2",
                                                 "unit_base": convert_to_flow_sequence([1, 2, -2, 0, 0, 0, 0])}
             continue
-
+        MEV_TO_JOULE = 1.602176634e-13
         nuclide_emitted_energy[nuclide] = {"source": info["source"],
-                                            "alpha": float((info["alpha"] * u.MeV).to(u.J).value),
-                                            "electron": float((info["electron"] * u.MeV).to(u.J).value),
-                                            "photon": float((info["photon"] * u.MeV).to(u.J).value),
-                                            "total": float((info["total"] * u.MeV).to(u.J).value),
+                                            "alpha": float(info["alpha"] * MEV_TO_JOULE),
+                                            "electron": float(info["electron"] * MEV_TO_JOULE),
+                                            "photon": float(info["photon"] * MEV_TO_JOULE),
+                                            "total": float(info["total"] * MEV_TO_JOULE),
                                             "unit_str": "kg*m^3/s^2",
                                             "unit_base": convert_to_flow_sequence([1, 2, -2, 0, 0, 0, 0])}
 
