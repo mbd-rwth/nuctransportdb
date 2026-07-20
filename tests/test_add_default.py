@@ -2,9 +2,12 @@ import uuid
 import numpy as np
 import pandas as pd
 import pytest
-
 from nuclide_transport_data import add_default
-from nuclide_transport_data.add_default import add_default_df, create_empty_sorption_pd, find_missing_properties, add_default_conservative_values, get_matching_default_df
+from nuclide_transport_data.add_default import add_default_conservative_values
+from nuclide_transport_data.add_default import add_default_df
+from nuclide_transport_data.add_default import create_empty_sorption_pd
+from nuclide_transport_data.add_default import find_missing_properties
+from nuclide_transport_data.add_default import get_matching_default_df
 
 
 # --------------------------------------------------------------------------- #
@@ -18,7 +21,7 @@ def empty_df():
 def make_default_row(rock_type, nuclide="I", value=1.0):
     # build a single-row DataFrame
     cols = create_empty_sorption_pd().columns
-    row = {c: None for c in cols}
+    row = dict.fromkeys(cols)
     row.update(
         {
             "nuclide_property": "sorption_coefficient",
@@ -28,7 +31,7 @@ def make_default_row(rock_type, nuclide="I", value=1.0):
             "type": "scalar",
             "value": value,
             "ID": str(uuid.uuid4()),
-        }
+        },
     )
     return pd.DataFrame([row])
 
@@ -43,14 +46,14 @@ class TestFindMissingProperties:
             {
                 "ID": ["id-1", "id-2"],
                 "simplified_lithology": [["Sandstone"], ["Mudstone"]],
-            }
+            },
         )
         missing = find_missing_properties(df, ["Sandstone", "Mudstone"])
         assert missing == []
 
     def test_partial_missing(self):
         df = pd.DataFrame(
-            {"ID": ["id-1"], "simplified_lithology": [["Sandstone"]]}
+            {"ID": ["id-1"], "simplified_lithology": [["Sandstone"]]},
         )
         missing = find_missing_properties(df, ["Sandstone", "Mudstone"])
         assert missing == ["Mudstone"]
@@ -60,7 +63,7 @@ class TestFindMissingProperties:
             {
                 "ID": [None, "id-2"],
                 "simplified_lithology": [["Sandstone"], ["Mudstone"]],
-            }
+            },
         )
         missing = find_missing_properties(df, ["Sandstone", "Mudstone"])
         assert missing == ["Sandstone"]
@@ -109,10 +112,10 @@ class TestGetMatchingDefaultDf:
 
 
 class TestAddDefaultDf:
-    # add_default_df 
+    # add_default_df
     @pytest.fixture(autouse=True)
     def patch_defaults(self, monkeypatch):
-       
+
         monkeypatch.setattr(add_default, "get_all_default_rock_types", lambda: ["Sandstone"])
 
         def fake_matching(nuclide, missing_rock_names):
@@ -137,7 +140,7 @@ class TestAddDefaultDf:
         assert row["value"] == 0.0
 
     def test_mixed_available_and_missing_lithologies(self):
-        result = add_default_df(create_empty_sorption_pd(), ["Sandstone", "Mudstone"], "I"
+        result = add_default_df(create_empty_sorption_pd(), ["Sandstone", "Mudstone"], "I",
         )
         assert set(result["rock_type"]) == {"Sandstone", "Mudstone"}
         mudstone_row = result[result["rock_type"] == "Mudstone"].iloc[0]
@@ -147,14 +150,14 @@ class TestAddDefaultDf:
         existing = pd.DataFrame(
             [
                 {
-                    **{c: None for c in create_empty_sorption_pd().columns},
+                    **dict.fromkeys(create_empty_sorption_pd().columns),
                     "rock_type": "Sandstone",
                     "nuclide": "I",
                     "simplified_lithology": ["Sandstone"],
                     "ID": "existing-id-1",
                     "value": 5.0,
-                }
-            ]
+                },
+            ],
         )
         result = add_default_df(existing, ["Sandstone", "Mudstone"], "I")
         assert set(result["rock_type"]) == {"Sandstone", "Mudstone"}
@@ -165,14 +168,14 @@ class TestAddDefaultDf:
         existing = pd.DataFrame(
             [
                 {
-                    **{c: None for c in create_empty_sorption_pd().columns},
+                    **dict.fromkeys(create_empty_sorption_pd().columns),
                     "rock_type": "Sandstone",
                     "nuclide": "I",
                     "simplified_lithology": ["Sandstone"],
                     "ID": "existing-id-1",
                     "value": np.nan,
-                }
-            ]
+                },
+            ],
         )
         result = add_default_df(existing, ["Sandstone"], "I")
         assert result.iloc[0]["value"] is None

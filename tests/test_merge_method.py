@@ -1,7 +1,6 @@
 import pandas as pd
-import pytest
-
 from nuclide_transport_data import merge_method as mm
+
 
 def base_row(**overrides):
     # Build one row with all merge-relevant columns defaulted to None.
@@ -53,7 +52,7 @@ class TestMasks:
 
     def test_value_truncnorm_mask(self):
         df = pd.DataFrame(
-            [base_row(value=1.5, value_min=1.0, value_max=2.0, value_std=0.2)]
+            [base_row(value=1.5, value_min=1.0, value_max=2.0, value_std=0.2)],
         )
         assert mm.value_truncnorm_mask(df).iloc[0]
 
@@ -65,7 +64,7 @@ class TestMergePropertyValue:
     def test_single_row_with_pdf_is_passed_through(self):
         df = pd.DataFrame(
             [base_row(nuclide_property="sorption_coefficient",
-                       sampled_data="np.array([1.0, 2.0, 3.0])")]
+                       sampled_data="np.array([1.0, 2.0, 3.0])")],
         )
         result = mm.merge_property_value(df, source_type="merged")
         assert len(result) == 1
@@ -76,7 +75,7 @@ class TestMergePropertyValue:
             [
                 base_row(value=1.0, value_min=0.5, value_max=1.5, value_std=0.1, ID="row-1"),
                 base_row(value=1.2, value_min=0.6, value_max=1.8, value_std=0.15, ID="row-2"),
-            ]
+            ],
         )
         result = mm.merge_property_value(df, sample_size=1000, source_type="merged")
         assert len(result) == 1
@@ -88,7 +87,7 @@ class TestMergePropertyValue:
             [
                 base_row(value=0.0, value_std=0.0, ID="row-1"),
                 base_row(value=0.0, value_std=0.0, ID="row-2"),
-            ]
+            ],
         )
         result = mm.merge_property_value(df, sample_size=1000, source_type="merged")
         assert result.iloc[0]["value_std"] == 0.0
@@ -101,7 +100,7 @@ class TestMergePropertyValue:
             [
                 base_row(value=1.0, value_min=0.5, value_max=1.5, value_std=0.1, ID="row-1"),
                 base_row(value=1.2, value_min=0.6, value_max=1.8, value_std=0.15, ID="row-2"),
-            ]
+            ],
         )
         result = mm.merge_property_value(
             df,
@@ -116,7 +115,7 @@ class TestMergePropertyValue:
             [
                 base_row(type="expression", value="x+1", ID="row-1"),
                 base_row(sampled_data="np.array([1.0, 2.0])", ID="row-2"),
-            ]
+            ],
         )
         result = mm.merge_property_value(df, source_type="merged")
         assert "expression" in list(result["type"])
@@ -126,14 +125,14 @@ class TestMergePropertyValue:
             [
                 base_row(type="expression", value="x+1", ID="row-1"),
                 base_row(sampled_data="np.array([1.0, 2.0])", ID="row-2"),
-            ]
+            ],
         )
         result = mm.merge_property_value(df, source_type="default")
         assert "expression" not in list(result["type"])
 
     def test_empty_columns_dropped_except_required(self):
         df = pd.DataFrame(
-            [base_row(sampled_data="np.array([1.0, 2.0, 3.0])", ID="row-1")]
+            [base_row(sampled_data="np.array([1.0, 2.0, 3.0])", ID="row-1")],
         )
         result = mm.merge_property_value(df, source_type="merged")
         assert "agency" not in result.columns

@@ -1,7 +1,7 @@
 import pytest
+from nuclide_transport_data.merge_method import value_empty_mask
+from nuclide_transport_data.merge_method import value_invalid_mask
 from nuclide_transport_data.property2dataframe import load_nuclide_sorption_data
-
-from nuclide_transport_data.merge_method import value_empty_mask, value_invalid_mask
 
 
 @pytest.fixture(scope="module")

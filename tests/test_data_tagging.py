@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
-
 from nuclide_transport_data.data_tagging import filter_tagged_data
+
 
 class TestFilterTaggedData:
     @pytest.fixture
@@ -16,12 +16,12 @@ class TestFilterTaggedData:
                     ["Shale"],
                 ],
                 "agency": [["NAGRA"], ["ANDRA"], ["NAGRA"], ["ANDRA"]],
-            }
+            },
         )
 
     def test_single_tag_type_filters_correctly(self, sample_df):
         result = filter_tagged_data(
-            sample_df, {"simplified_lithology": ["Mudstone", "Sandstone"]}
+            sample_df, {"simplified_lithology": ["Mudstone", "Sandstone"]},
         )
         assert set(result.index) == {0, 1}
 
