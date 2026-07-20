@@ -1,5 +1,5 @@
 ## NucTransportDB
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21462868.svg)](https://doi.org/10.5281/zenodo.21462868) [![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/CQ-QianChen/nuctransportdb) [![github license badge](https://img.shields.io/github/license/CQ-QianChen/nuctransportdb)](https://github.com/CQ-QianChen/nuctransportdb) [![Documentation Status](https://readthedocs.org/projects/nuctransportdb/badge/?version=latest)](https://nuctransportdb.readthedocs.io/en/latest/?badge=latest) [![build](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/build.yml/badge.svg)](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/build.yml) [![cffconvert](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/cffconvert.yml) [![link-check](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/link-check.yml/badge.svg)](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/link-check.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21462868.svg)](https://doi.org/10.5281/zenodo.21462868) [![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/mbd-rwth/nuctransportdb) [![github license badge](https://img.shields.io/github/license/mbd-rwth/nuctransportdb)](https://github.com/mbd-rwth/nuctransportdb) [![Documentation Status](https://readthedocs.org/projects/nuctransportdb/badge/?version=latest)](https://nuctransportdb.readthedocs.io/en/latest/?badge=latest) [![build](https://github.com/mbd-rwth/nuctransportdb/actions/workflows/build.yml/badge.svg)](https://github.com/mbd-rwth/nuctransportdb/actions/workflows/build.yml) [![cffconvert](https://github.com/mbd-rwth/nuctransportdb/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/mbd-rwth/nuctransportdb/actions/workflows/cffconvert.yml) [![link-check](https://github.com/mbd-rwth/nuctransportdb/actions/workflows/link-check.yml/badge.svg)](https://github.com/mbd-rwth/nuctransportdb/actions/workflows/link-check.yml)
 
 
 
@@ -11,7 +11,7 @@ A simulation-ready database for radionuclide transport simulations, providing em
 To install nuctransportdb from GitHub repository, do:
 
 ```console
-git clone git@github.com:CQ-QianChen/nuctransportdb.git
+git clone git@github.com:mbd-rwth/nuctransportdb.git
 cd nuctransportdb
 python -m pip install .
 ```
