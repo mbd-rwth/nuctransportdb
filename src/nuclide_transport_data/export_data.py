@@ -4,6 +4,9 @@ import astropy.units as u
 import numpy as np
 import pandas as pd
 import yaml
+import argparse
+import sys
+from pathlib import Path
 from nuclide_transport_data.add_default import add_default_df
 from nuclide_transport_data.data_tagging import filter_tagged_data
 from nuclide_transport_data.dataframe2yaml import convert_to_flow_sequence
@@ -57,8 +60,7 @@ def export_species_data(input_config) -> None:
             diffusion_group[nuclide] = {"value": "fast"}
 
     path_to_save_nuclide_species_data = input_config["path_to_save_nuclide_species_data"]
-    if not os.path.exists(path_to_save_nuclide_species_data):
-        os.makedirs(path_to_save_nuclide_species_data)
+    
 
     with open(os.path.join(path_to_save_nuclide_species_data, "species_type.yaml"), "w") as f:
         yaml.safe_dump(species_type, f, sort_keys=False)
@@ -92,15 +94,14 @@ def export_nuclide_emitted_energy(input_config) -> None:
 
 
     path_to_save_nuclide_emitted_energy_data = input_config["path_to_save_nuclide_emitted_energy_data"]
-    if not os.path.exists(path_to_save_nuclide_emitted_energy_data):
-        os.makedirs(path_to_save_nuclide_emitted_energy_data)
+    
 
     with open(os.path.join(path_to_save_nuclide_emitted_energy_data, "emitted_energy.yaml"), "w") as f:
         yaml.safe_dump(nuclide_emitted_energy, f, sort_keys=False)
 
 
 def export_sorption_data_for_site(input_config) -> None:
-    with open(input_config["input_site_yaml_path"], encoding="utf-8") as f:
+    with open(input_config["path_to_site_yaml"], encoding="utf-8") as f:
         yaml_config = yaml.safe_load(f)
     yaml_config.pop("name", None)
     yaml_config.pop("description", None)
@@ -140,6 +141,139 @@ def export_sorption_data_for_site(input_config) -> None:
 
         # save the sorption data for the specific rock unit
         path_to_save_sorption_data = input_config["path_to_save_sorption_data"]
-        if not os.path.exists(path_to_save_sorption_data):
-            os.makedirs(path_to_save_sorption_data)
+        
         export2yaml(result, f"{path_to_save_sorption_data}/{rock_unit}.yaml")
+
+REQUIRED_FIELDS = ["nuclide_to_consider"]
+
+def parse_args():
+   
+    parser = argparse.ArgumentParser(
+        description="Export nuclide transport data based on a YAML configuration file."
+    )
+
+    parser.add_argument(
+        "--config",
+        type=str,
+        required=True, 
+        help="Path to the rock configuration YAML file."
+    )
+
+    parser.add_argument(
+        "--path_to_site_yaml_file",
+        type=str,
+        required=True, 
+        help="Path to the site YAML file (contains a summary of rock unit lithologies)."
+    )
+    
+    parser.add_argument(
+        "--path_to_save_sorption_data",
+        type=str,
+        required=True,
+        help="Output directory for sorption coefficient data."
+    )
+    parser.add_argument(
+        "--path_to_save_nuclide_species_data",
+        type=str,
+        required=True,
+        help="Output directory for nuclide species data.",
+    )
+    parser.add_argument(
+        "--path_to_save_nuclide_emitted_energy_data",
+        type=str,
+        required=True,
+        help="Output directory for emitted energy data.",
+    )
+
+    return parser.parse_args()
+
+def load_nuclide_yaml_config(config_path):
+    """Load a YAML configuration file
+
+    Args:
+        config_path (str): Path to the input YAML configuration file
+
+    Raises:
+        FileNotFoundError: not found message.
+        ValueError: empty config file message.
+
+    Returns:
+        dict: configuration dictionary.
+    """
+    config_path = Path(config_path)
+    if not config_path.exists():
+        raise FileNotFoundError(f"Config file not found: {config_path}")
+
+    with open(config_path, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f)
+
+    if config is None:
+        raise ValueError(f"Config file is empty: {config_path}")
+
+    return config
+
+def validate_config(config):
+    """Validate that all required fields are present in the config.
+
+    Args:
+        config (dict): configuration dictionary
+
+    Raises:
+        ValueError: missing required field message.
+    """
+
+    missing = [field for field in REQUIRED_FIELDS if field not in config]
+    if missing:
+        raise ValueError(f"Missing required config field(s): {missing}")
+    
+def build_nuclide_config(config_path, path_to_site_yaml, path_to_save_sorption_data, path_to_save_nuclide_species_data, path_to_save_nuclide_emitted_energy_data):
+    """Load and validate, a site configuration file. Save rock, site, geometry data with output paths given via CLI.
+
+    Args:
+        config_path (str): path to the configuration file.
+        path_to_site_yaml (str): Path to a site YAML file.
+        path_to_save_sorption_data (str): Output directory for sorption coefficient data.
+        path_to_save_nuclide_species_data (str): Output directory for nuclide species data.
+        path_to_save_nuclide_emitted_energy_data (str): Output directory for emitted energy data.
+
+    Returns:
+        dict: configuration dictionary with output paths given via CLI.
+    """
+
+    raw_config = load_nuclide_yaml_config(config_path)
+    validate_config(raw_config)
+
+    input_config = {
+        "nuclide_to_consider": raw_config['nuclide_to_consider'],
+        "path_to_site_yaml": path_to_site_yaml,
+        "path_to_save_sorption_data": path_to_save_sorption_data,
+        "path_to_save_nuclide_species_data": path_to_save_nuclide_species_data,
+        "path_to_save_nuclide_emitted_energy_data": path_to_save_nuclide_emitted_energy_data,
+    }
+
+    return input_config
+
+def main():
+    args = parse_args()
+
+    try:
+        nuclide_config = build_nuclide_config(
+            args.config,
+            args.path_to_site_yaml_file,
+            args.path_to_save_sorption_data,
+            args.path_to_save_nuclide_species_data,
+            args.path_to_save_nuclide_emitted_energy_data
+        )
+    except (FileNotFoundError, ValueError) as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    for path_key in ["path_to_save_sorption_data", "path_to_save_nuclide_species_data", "path_to_save_nuclide_emitted_energy_data"]:
+        Path(nuclide_config[path_key]).mkdir(parents=True, exist_ok=True)
+
+    export_species_data(nuclide_config)
+    export_nuclide_emitted_energy(nuclide_config)
+    export_sorption_data_for_site(nuclide_config)
+
+if __name__ == "__main__":
+    main()

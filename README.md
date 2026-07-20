@@ -18,47 +18,63 @@ python -m pip install .
 
 ## Exporting Nuclide Data
 
-Use [export_data.py](./src/nuclide_transport_data/export_data.py) to extract nuclide data for a specific candidate site and defined model setup. The script reads a YAML configuration file that specifies which nuclides to extract, along with optional output paths for the different data types.
+Use [export_data.py](./src/nuclide_transport_data/export_data.py) to extract nuclide data for a specific candidate site and defined model setup. The script reads a YAML configuration file that specifies which nuclides to extract. 
 
 ### Configuration file format 
 
-| Field | Description |
-|---|---|
+| Field                 | Description |
+|-----------------------|---|
 | `nuclide_to_consider` | List of nuclides to extract (e.g., `I-129`). |
-| `site_name` | Name of the disposal site. |
-| `site_scenario_name` | Name of the specific site scenario. |
-| `input_site_yaml_path` | Path to a custom site YAML file. | 
-| `path_to_save_sorption_data` | Output directory for sorption coefficient data. | 
-| `path_to_save_nuclide_species_data` | Output directory for nuclide species data. | 
-| `path_to_save_nuclide_emitted_energy_data` | Output directory for emitted energy data. |
 
-#### example:
+Users have to define an input path for a site YAML file. 
+A site YAML file has the following structure:
+
 ```yaml
-nuclide_to_consider:
-  - I-129
-
-site_name: DE_South_Claystone
-site_scenario_name: DE_South_Claystone_Germany
-
-
-Path to a site-specific YAML file defining site properties.
-If omitted, defaults to the built-in site data.
-input_site_yaml_path: input/site_data/DE_South_Claystone_Germany/DE_South_Claystone.yaml
-
-Directory to save the exported sorption coefficient data.
-path_to_save_sorption_data: output/DE_South_Claystone_Germany/sorption_data
-
-Directory to save the exported nuclide species data.
-path_to_save_nuclide_species_data: output/DE_South_Claystone_Germany/nuclide_data
-
-Directory to save the exported nuclide emitted energy data.
-path_to_save_nuclide_emitted_energy_data: output/DE_South_Claystone_Germany/nuclide_data
+name: name for the candidate site
+description: a short description on the site
+Rock_Unit_1: 
+  source:  References describing the lithofacies of Rock Unit 1
+  simplified_lithology: A list of strings containing different rock types, e.g., [Sandstone, Conglomerate] 
+Rock_Unit_2:
+  source: similar to Rock_Unit_1
+  simplified_lithology: similar to Rock_Unit_1
+...
 ```
 
-### Running the script
+In addition, users must provide output paths for different data types.
+
+
+| Path                                       | Description |
+|--------------------------------------------|---|
+| `path_to_save_sorption_data`               | Output directory for sorption coefficient data. | 
+| `path_to_save_nuclide_species_data`        | Output directory for nuclide species data. | 
+| `path_to_save_nuclide_emitted_energy_data` | Output directory for emitted energy data. |
+
+### Usage:
 
 ```bash
-python export_data.py --config path/to/your_config.yaml
+python export_data.py --config path/to/nuclide_config.yaml \
+    --path_to_site_yaml_file path/to/site/yaml/file \
+    --path_to_save_sorption_data output/path/to/sorption_data \
+    --path_to_save_nuclide_species_data output/path/to/nuclide_species_data \
+    --path_to_save_nuclide_emitted_energy_data output/path/to/emitted_energy_data \
+```
+
+#### Example:
+```yaml
+nuclide_to_consider:
+  - Cm-247
+  - U-235
+```
+
+##### Running the script
+
+```bash
+python -m nuclide_transport_data.export_data --config  \
+    --path_to_site_yaml_file input/DE_South_Claystone_Germany/site_data/DE_South_Claystone.yaml \
+    --path_to_save_sorption_data output/DE_South_Claystone_Germany/sorption_data \
+    --path_to_save_nuclide_species_data output/DE_South_Claystone_Germany/nuclide_data \
+    --path_to_save_nuclide_emitted_energy_data output/DE_South_Claystone_Germany/emitted_energy_data \
 ```
 
 ## Documentation
