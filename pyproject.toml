@@ -26,7 +26,8 @@ dependencies = [
  "pandas==2.3.3",
  "pyyaml==6.0.3",
  "scipy==1.15.3",
- "ruamel.yaml==0.18.16"]
+ "ruamel.yaml==0.18.16",
+ "astropy==8.0.1"]
 description = "A simulation-ready database for radionuclide transport simulations, providing emitted energy data for a selected set of nuclides, sorption coefficient cross rock types, and chemical-species data."
 keywords = ["nuclear waste transport"," sorption data"," emitted energy"," chemical species"]
 license = {file = "LICENSE"}
