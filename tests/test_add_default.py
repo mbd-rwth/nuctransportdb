@@ -2,12 +2,12 @@ import uuid
 import numpy as np
 import pandas as pd
 import pytest
-from nuclide_transport_data import add_default
-from nuclide_transport_data.add_default import add_default_conservative_values
-from nuclide_transport_data.add_default import add_default_df
-from nuclide_transport_data.add_default import create_empty_sorption_pd
-from nuclide_transport_data.add_default import find_missing_properties
-from nuclide_transport_data.add_default import get_matching_default_df
+from nuctransportdb import add_default
+from nuctransportdb.add_default import add_default_conservative_values
+from nuctransportdb.add_default import add_default_df
+from nuctransportdb.add_default import create_empty_sorption_pd
+from nuctransportdb.add_default import find_missing_properties
+from nuctransportdb.add_default import get_matching_default_df
 
 
 # --------------------------------------------------------------------------- #

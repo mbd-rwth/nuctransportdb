@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"nuclide_transport_data"
+project = u"nuctransportdb"
 copyright = u"2026-07-18 11:12:14, Qian Chen"
 author = u"Qian Chen"
 
@@ -61,7 +61,7 @@ todo_include_todos = False
 
 # -- Use autoapi.extension to run sphinx-apidoc -------
 
-autoapi_dirs = ['../src/nuclide_transport_data']
+autoapi_dirs = ['../src/nuctransportdb']
 
 # -- Options for HTML output ----------------------------------------------
 

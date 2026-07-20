@@ -4,8 +4,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy import stats
-from nuclide_transport_data.load_path import get_path_in_dir
-from nuclide_transport_data.property2dataframe import load_nuclide_property
+from nuctransportdb.load_path import get_path_in_dir
+from nuctransportdb.property2dataframe import load_nuclide_property
 
 
 def s_CV(df):
@@ -36,7 +36,7 @@ def rock_CV():
         dict: A dictionary containing the CV for each rock type.
     """
     # Get the coefficient of variation (CV) for each property
-    data_path = files("nuclide_transport_data") / "dataset"
+    data_path = files("nuctransportdb") / "dataset"
     property_path = os.path.join(data_path, "sorption_coefficient")
     property_file_paths = get_path_in_dir(property_path)
     yaml_property_paths = [

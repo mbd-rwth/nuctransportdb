@@ -3,7 +3,7 @@ from importlib.resources import files
 import numpy as np
 import pandas as pd
 import yaml
-from nuclide_transport_data.load_path import get_path_in_dir
+from nuctransportdb.load_path import get_path_in_dir
 
 
 def preserve_value_type(value):
@@ -98,7 +98,7 @@ def load_nuclide_sorption_data():
         pd.dataframe: panda dataframe contains all collected sorption data.
     """
     # load YAML file paths from the rock_property directory
-    data_path = files("nuclide_transport_data") / "dataset"
+    data_path = files("nuctransportdb") / "dataset"
     property_path = os.path.join(data_path, "sorption_coefficient")
     property_file_paths = get_path_in_dir(property_path)
     yaml_property_paths = [

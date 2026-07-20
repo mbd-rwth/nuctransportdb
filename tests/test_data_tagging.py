@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from nuclide_transport_data.data_tagging import filter_tagged_data
+from nuctransportdb.data_tagging import filter_tagged_data
 
 
 class TestFilterTaggedData:

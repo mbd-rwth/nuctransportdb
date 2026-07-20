@@ -7,23 +7,23 @@ import astropy.units as u
 import numpy as np
 import pandas as pd
 import yaml
-from nuclide_transport_data.add_default import add_default_df
-from nuclide_transport_data.data_tagging import filter_tagged_data
-from nuclide_transport_data.dataframe2yaml import convert_to_flow_sequence
-from nuclide_transport_data.dataframe2yaml import export2yaml
-from nuclide_transport_data.merge_method import merge_property_value
-from nuclide_transport_data.property2dataframe import load_nuclide_sorption_data
+from nuctransportdb.add_default import add_default_df
+from nuctransportdb.data_tagging import filter_tagged_data
+from nuctransportdb.dataframe2yaml import convert_to_flow_sequence
+from nuctransportdb.dataframe2yaml import export2yaml
+from nuctransportdb.merge_method import merge_property_value
+from nuctransportdb.property2dataframe import load_nuclide_sorption_data
 
 
 def load_all_emitted_energy():
-    data_path = files("nuclide_transport_data") / "dataset"
+    data_path = files("nuctransportdb") / "dataset"
     path_to_yaml = os.path.join(data_path, "emitted_energy", "emitted_energy.yaml")
     with open(path_to_yaml, encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
 def load_all_species_type_data():
-    data_path = files("nuclide_transport_data") / "dataset"
+    data_path = files("nuctransportdb") / "dataset"
     path_to_yaml = os.path.join(data_path,"species_type", "species_type.yaml")
     with open(path_to_yaml, encoding="utf-8") as f:
         return yaml.safe_load(f)

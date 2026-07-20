@@ -1,9 +1,9 @@
-.. nuclide_transport_data documentation master file, created by
+.. nuctransportdb documentation master file, created by
    sphinx-quickstart on Wed May  5 22:45:36 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to nuclide_transport_data's documentation!
+Welcome to nuctransportdb's documentation!
 ==========================================================
 
 .. toctree::

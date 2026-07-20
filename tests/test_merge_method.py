@@ -1,5 +1,5 @@
 import pandas as pd
-from nuclide_transport_data import merge_method as mm
+from nuctransportdb import merge_method as mm
 
 
 def base_row(**overrides):

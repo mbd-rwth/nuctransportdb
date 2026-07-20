@@ -1,8 +1,8 @@
 from pathlib import Path
-from nuclide_transport_data.dataframe2yaml import export2yaml
-from nuclide_transport_data.load_path import get_path_in_dir
-from nuclide_transport_data.merge_method import merge_property_value
-from nuclide_transport_data.property2dataframe import load_nuclide_property
+from nuctransportdb.dataframe2yaml import export2yaml
+from nuctransportdb.load_path import get_path_in_dir
+from nuctransportdb.merge_method import merge_property_value
+from nuctransportdb.property2dataframe import load_nuclide_property
 
 
 def generate_initial_default(property_dir, output_dir) -> None:
@@ -35,7 +35,7 @@ def generate_initial_default(property_dir, output_dir) -> None:
             input_df_for_merging, source_type="default",
         )
         # Only maintainers can save the generated data to YAML files.
-        save_to_file = True
+        save_to_file = False
 
         if save_to_file:
             export2yaml(

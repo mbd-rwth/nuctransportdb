@@ -7,10 +7,10 @@ from scipy.stats import lognorm
 from scipy.stats import norm
 from scipy.stats import truncnorm
 from scipy.stats import uniform
-from nuclide_transport_data.generate_id import get_entry_str
-from nuclide_transport_data.generate_id import ntd_namespace
-from nuclide_transport_data.property2dataframe import preserve_value_type
-from nuclide_transport_data.recommended_CV import rock_CV
+from nuctransportdb.generate_id import get_entry_str
+from nuctransportdb.generate_id import ntd_namespace
+from nuctransportdb.property2dataframe import preserve_value_type
+from nuctransportdb.recommended_CV import rock_CV
 
 
 # --- Create masks based on different inputs ---#

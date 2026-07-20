@@ -4,10 +4,10 @@ from importlib.resources import files
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from nuclide_transport_data.generate_id import get_entry_str
-from nuclide_transport_data.generate_id import ntd_namespace
-from nuclide_transport_data.load_path import get_path_in_dir
-from nuclide_transport_data.property2dataframe import load_nuclide_property
+from nuctransportdb.generate_id import get_entry_str
+from nuctransportdb.generate_id import ntd_namespace
+from nuctransportdb.load_path import get_path_in_dir
+from nuctransportdb.property2dataframe import load_nuclide_property
 
 
 def get_all_default_rock_types():
@@ -16,7 +16,7 @@ def get_all_default_rock_types():
     Returns:
         list: a list of default rock names.
     """
-    data_path = files("nuclide_transport_data") / "dataset"
+    data_path = files("nuctransportdb") / "dataset"
     default_property_path = os.path.join(data_path, "sorption_coefficient", "default")
     default_property_file_paths = get_path_in_dir(default_property_path)
     default_yaml_property_paths = [
@@ -35,7 +35,7 @@ def load_default_sorption_df(lithologies):
     """
     # load default rock property from yaml files
 
-    data_path = files("nuclide_transport_data") / "dataset"
+    data_path = files("nuctransportdb") / "dataset"
     add_default_yaml_list = [
 
         os.path.join(

@@ -1,5 +1,5 @@
 ## Nuclide Transport Data
-[![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/CQ-QianChen/nuclide_transport_data) [![github license badge](https://img.shields.io/github/license/CQ-QianChen/nuclide_transport_data)](https://github.com/CQ-QianChen/nuclide_transport_data) [![Documentation Status](https://readthedocs.org/projects/nuclide_transport_data/badge/?version=latest)](https://nuclide_transport_data.readthedocs.io/en/latest/?badge=latest) [![build](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/build.yml/badge.svg)](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/build.yml) [![cffconvert](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/cffconvert.yml) [![link-check](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/link-check.yml/badge.svg)](https://github.com/CQ-QianChen/nuclide_transport_data/actions/workflows/link-check.yml)
+[![github repo badge](https://img.shields.io/badge/github-repo-000.svg?logo=github&labelColor=gray&color=blue)](https://github.com/CQ-QianChen/nuctransportdb) [![github license badge](https://img.shields.io/github/license/CQ-QianChen/nuctransportdb)](https://github.com/CQ-QianChen/nuctransportdb) [![Documentation Status](https://readthedocs.org/projects/nuctransportdb/badge/?version=latest)](https://nuctransportdb.readthedocs.io/en/latest/?badge=latest) [![build](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/build.yml/badge.svg)](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/build.yml) [![cffconvert](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/cffconvert.yml/badge.svg)](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/cffconvert.yml) [![link-check](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/link-check.yml/badge.svg)](https://github.com/CQ-QianChen/nuctransportdb/actions/workflows/link-check.yml)
 
 
 
@@ -8,17 +8,17 @@ A simulation-ready database for radionuclide transport simulations, providing em
 
 ## Installation
 
-To install nuclide_transport_data from GitHub repository, do:
+To install nuctransportdb from GitHub repository, do:
 
 ```console
-git clone git@github.com:CQ-QianChen/nuclide_transport_data.git
-cd nuclide_transport_data
+git clone git@github.com:CQ-QianChen/nuctransportdb.git
+cd nuctransportdb
 python -m pip install .
 ```
 
 ## Exporting Nuclide Data
 
-Use [export_data.py](./src/nuclide_transport_data/export_data.py) to extract nuclide data for a specific candidate site and defined model setup. The script reads a YAML configuration file that specifies which nuclides to extract. 
+Use [export_data.py](./src/nuctransportdb/export_data.py) to extract nuclide data for a specific candidate site and defined model setup. The script reads a YAML configuration file that specifies which nuclides to extract. 
 
 ### Configuration file format 
 
@@ -53,7 +53,7 @@ In addition, users must provide output paths for different data types.
 ### Usage:
 
 ```bash
-python export_data.py --config path/to/nuclide_config.yaml \
+python nuctransportdb.export_data --config path/to/nuclide_config.yaml \
     --path_to_site_yaml_file path/to/site/yaml/file \
     --path_to_save_sorption_data output/path/to/sorption_data \
     --path_to_save_nuclide_species_data output/path/to/nuclide_species_data \
@@ -70,7 +70,7 @@ nuclide_to_consider:
 ##### Running the script
 
 ```bash
-python -m nuclide_transport_data.export_data --config  \
+python -m nuctransportdb.export_data --config  \
     --path_to_site_yaml_file input/DE_South_Claystone_Germany/site_data/DE_South_Claystone.yaml \
     --path_to_save_sorption_data output/DE_South_Claystone_Germany/sorption_data \
     --path_to_save_nuclide_species_data output/DE_South_Claystone_Germany/nuclide_data \
@@ -79,11 +79,11 @@ python -m nuclide_transport_data.export_data --config  \
 
 ## Documentation
 
-[see our readthedocs](https://nuclide-transport-data.readthedocs.io/en/latest/)
+[see our readthedocs](https://nuctransportdb.readthedocs.io/en/latest/)
 
 ## Contributing
 
-If you want to contribute to the development of nuclide_transport_data,
+If you want to contribute to the development of nuctransportdb,
 have a look at the [contribution guidelines](CONTRIBUTING.md).
 
 ## Credits

@@ -1,4 +1,4 @@
-"""Documentation about nuclide_transport_data."""
+"""Documentation about nuctransportdb."""
 
 import logging
 

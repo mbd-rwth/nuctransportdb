@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=nuclide_transport_data
+set SPHINXPROJ=nuctransportdb
 
 if "%1" == "" goto help
 

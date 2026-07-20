@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = nuclide_transport_data
+SPHINXPROJ    = nuctransportdb
 SOURCEDIR     = .
 BUILDDIR      = _build
 
